@@ -82,5 +82,7 @@ div.sidebarStats
 	margin-left:25px;
 	font-family: Arial, Helvetica, sans-serif;
 	position: relative;
+	alignment-baseline:central;
+	
 	cursor: pointer;
 }
