@@ -25,9 +25,10 @@
     </div>
 <div id="header">You are currently not in a room</div>
 <div class="map">
-  <img src="Images/Atwood 1st floor.png" width="1000" height="800" usemap="#AtwoodGround">
+  <img id="AtwoodGround" src="Images/Atwood 1st floor.png" width="1000" height="800" usemap="#AtwoodGround">
   <map name="AtwoodGround">
     <area shape="rect" coords="304,108,353,184" href="#109" target="_self" alt="109">
+    <img src="Images/RedCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 530px; top:220px; z-index:1;">
     <area shape="rect" coords="354,106,404,184" href="#111" target="_self" alt="111">
     <area shape="rect" coords="404,105,449,211" href="#113" target="_self" alt="113">
     <area shape="rect" coords="549,104,594,207" href="#115" target="_self" alt="115">
@@ -58,5 +59,6 @@
   </map>
 </div>
 <!--<iframe src="Images/Atwood Dorm Ground Floor.svg" width="600" height="600"> </iframe>-->
+<script src="drawRoomOccupants.js"></script>
 </body>
 </html>
