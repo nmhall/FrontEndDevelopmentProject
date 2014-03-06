@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="frontPageStyle.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    
+    <div class="sidebar">
+    
+    	<div class="userName">Nathan Hall</div>
+    	<div class="priorityNumber">45</div>
+    	<div class="currentDorm">Select a Dorm</div>
+    	<div class="sidebarStats">Open Singles: 15 of 40</div> 
+    	<div class="sidebarStats">Open Doubles: 50 of 180</div>
+    	<div class="sidebarStats">Open Triples: 3 of 14</div>
+    	<div class="sidebarStats">Open Quads: 1 of 4</div>
+    	<div class="sidebarStats">
+    		<button name="FullStatsButton" type="button" id="FullStatsButton">See Full Statistics</button>
+    	</div>
+    
+    
+    </div>
+<div id="header">You are currently not in a room</div>
+<div class="map">
+  <img src="Images/Atwood 2nd Floor.png" width="1000" height="800" usemap="#Atwood">
+  <map name="Atwood">
+    <area id="atwood209" shape="rect" coords="309,109,358,185" href="#209" target="_self" alt="209">
+    <img src="Images/YellowCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 530px; top:220px; z-index:1;">
+    <area id="atwood211" shape="rect" coords="357,108,407,186" href="#211" target="_self" alt="211">
+    <img src="Images/YellowCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 580px; top:220px; z-index:1;">
+    <area id="atwood213" shape="rect" coords="408,107,453,213" href="#213" target="_self" alt="213">
+    <area id="atwood215"shape="rect" coords="552,107,597,210" href="#215" target="_self" alt="215">
+    <area id="atwood217" shape="rect" coords="598,108,647,184" href="#217" target="_self" alt="217">
+    <area id="atwood219" shape="rect" coords="648,106,696,186" href="#219" target="_top" alt="219">
+    <area id="atwood205" shape="rect" coords="213,214,287,266" href="#205" target="_self" alt="205">
+    <img src="Images/RedCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 440px; top:315px; z-index:1;">
+    <area id="atwood203" shape="rect" coords="213,266,287,314" href="#203" target="_self" alt="203">
+    <img src="Images/RedCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 440px; top:365px; z-index:1;">
+    <area id="atwood201" shape="rect" coords="215,315,312,362" href="#201" target="_self" alt="201">
+    <area id="atwood227" shape="rect" coords="695,312,792,358" href="#227" target="_self" alt="227">
+    <area id="atwood225" shape="rect" coords="721,261,790,311" href="#225" target="_self" alt="225">
+    <area id="atwood223" shape="rect" coords="721,210,791,257" href="#223" target="_top" alt="223">
+    <area id="atwood226" shape="rect" coords="697,461,791,507" href="#226" target="_self" alt="226">
+    <area id="atwood224" shape="rect" coords="723,508,792,557" href="#224" target="_self" alt="224">
+    <area id="atwood222" shape="rect" coords="722,558,792,607" href="#222" target="_self" alt="222">
+    <area id="atwood218" shape="rect" coords="650,637,697,709" href="#218" target="_self" alt="218">
+    <area id="atwood216" shape="rect" coords="601,638,650,709" href="#216" target="_self" alt="216">
+    <area id="atwood214" shape="rect" coords="553,609,599,711" href="#214" target="_self" alt="214">
+    <area id="atwood212" shape="rect" coords="410,610,459,713" href="#212" target="_self" alt="212">
+    <area id="atwood210" shape="rect" coords="360,637,410,716" href="#210" target="_self" alt="210">
+    <area id="atwood208" shape="rect" coords="311,640,359,715" href="#208" target="_self" alt="208">
+    <area id="atwood204" shape="rect" coords="212,567,287,614" href="#204" target="_self" alt="204">
+    <area id="atwood202" shape="rect" coords="212,516,285,566" href="#202" target="_self" alt="202">
+    <area id="atwood200" shape="rect" coords="213,467,310,512" href="#200" target="_self" alt="200">
+    <area id="atwood207" shape="poly" coords="261,112,308,113,307,184,282,186,267,204,282,210,213,211,213,163,263,164" href="#207" target="_self" alt="207">
+    <area id="atwood221" shape="poly" coords="742,108,745,157,791,157,790,207,725,207,721,184,699,181,697,108" href="#221" target="_self" alt="221">
+    <area id="atwood220" shape="poly" coords="744,706,743,662,792,658,791,607,722,608,722,635,696,635,697,708" href="#220" target="_self" alt="220">
+    <area id="atwood206" shape="poly" coords="213,615,216,663,262,664,262,715,310,715,311,641,283,641,284,612" href="#206" target="_self" alt="206">
+  </map>
+</div>
+<!--<iframe src="Images/Atwood Dorm Ground Floor.svg" width="600" height="600"> </iframe>-->
+<script src="drawRoomOccupants.js"></script>
+</body>
+</html>
