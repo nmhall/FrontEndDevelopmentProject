@@ -10,7 +10,7 @@ body, html
 	text-align:center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:65px;
-	background:#8C9697;//#139890;
+	background:#8C9697;
 	padding-left:10px;
 	padding-right:10px;
 	width: 100%;
@@ -20,7 +20,7 @@ body, html
 div.sidebar
 {
 	float: left;
-	background: #8C9697; //#139890;
+	background: #8C9697;
 	width: 200px;
 	height: 100%;
 	display:inline;
