@@ -9,36 +9,49 @@
 <body>
     
     <div class="sidebar">
-    
-    	<div class="userName">Nathan Hall</div>
-    	<div class="priorityNumber">45</div>
-    	<div class="currentDorm">Select a Dorm</div>
-    	<div class="sidebarStats">Open Singles: 15 of 40</div> 
-    	<div class="sidebarStats">Open Doubles: 50 of 180</div>
-    	<div class="sidebarStats">Open Triples: 3 of 14</div>
-    	<div class="sidebarStats">Open Quads: 1 of 4</div>
-    	<div class="sidebarStats">
-    		<button name="FullStatsButton" type="button" id="FullStatsButton">See Full Statistics</button>
-    	</div>
+      <div class="sidebarSection user">
+        <div class="infoHeader">User Info</div>
+        <div class="userName">Nathan Hall</div>
+        <div class="priorityNumber">Junior 45</div>
+      </div> <!-- user info section -->
+      <div class="sidebarSection stats">
+        <div class="infoHeader">Campus Info</div>
+        <div class="sidebarStats">Open Singles: 15 of 40</div>
+        <div class="sidebarStats">Open Doubles: 50 of 180</div>
+        <div class="sidebarStats">Open Triples: 3 of 14</div>
+        <div class="sidebarStats">Open Quads: 1 of 4</div>
+        <div class="sidebarStats">
+          <button name="FullStatsButton" type="button" id="FullStatsButton">See Full Statistics</button>
+        </div>
+      </div> <!-- sidebar stats section -->    
     
     
     </div>
 <div id="header">You are currently not in a room</div>
+<div id="floorTabs">
+  <ul id="tabnav">
+    <li><a href="FrontPageAllDorms.html">Back to Campus Map</a></li>
+    <li class="currentTab"><a href="Atwood1st.html">1st Floor</a></li>
+    <li><a href="Atwood2nd.html">2nd Floor</a></li>
+    <li><a href="Atwood3rd.html">3rd Floor</a></li>
+  </ul>
+</div>
+
 <div class="map">
   <img src="Images/Atwood 1st Floor.png" width="1000" height="800" usemap="#Atwood">
   <map name="Atwood">
     <area id="atwood109" shape="rect" coords="304,108,353,184" href="#109" target="_self" alt="109">
-    <img src="Images/YellowCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 530px; top:220px; z-index:1;">
+    <img src="Images/YellowCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 530px; top:260px; z-index:1;">
     <area id="atwood111" shape="rect" coords="354,106,404,184" href="#111" target="_self" alt="111">
-    <img src="Images/YellowCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 580px; top:220px; z-index:1;">
+    <img src="Images/YellowCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 580px; top:260px; z-index:1;">
     <area id="atwood113" shape="rect" coords="404,105,449,211" href="#113" target="_self" alt="113">
     <area id="atwood115"shape="rect" coords="549,104,594,207" href="#115" target="_self" alt="115">
     <area id="atwood117" shape="rect" coords="595,106,644,182" href="#117" target="_self" alt="117">
     <area id="atwood119" shape="rect" coords="645,102,693,182" href="#119" target="_top" alt="119">
     <area id="atwood105" shape="rect" coords="208,211,282,263" href="#105" target="_self" alt="105">
-    <img src="Images/RedCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 440px; top:315px; z-index:1;">
+    <img src="Images/RedCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 440px; top:355px; z-index:1;">
     <area id="atwood103" shape="rect" coords="210,264,284,312" href="#103" target="_self" alt="103">
-    <img src="Images/RedCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 440px; top:365px; z-index:1;">
+    <img src="Images/RedCircle.jpeg" width="18px;" height="18px;" style="position:absolute; left: 440px; top:405px; z-index:1;">
     <area id="atwood101" shape="rect" coords="209,315,306,362" href="#101" target="_self" alt="101">
     <area id="atwood127" shape="rect" coords="692,309,789,355" href="#127" target="_self" alt="127">
     <area id="atwood125" shape="rect" coords="719,257,788,307" href="#125" target="_self" alt="125">
