@@ -1,0 +1,417 @@
+#north216-locked {
+  position: absolute;
+  left: 943px;
+  top: 185px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north222-locked {
+  position: absolute;
+  left: 773px;
+  top: 299px;
+  width: 38px;
+  height: 40px;
+  z-index: 1;
+}
+    #north214-locked {
+  position: absolute;
+  left: 942px;
+  top: 261px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north212-locked {
+  position: absolute;
+  left: 951px;
+  top: 349px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north210-locked {
+  position: absolute;
+  left: 952px;
+  top: 427px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north226-locked {
+  position: absolute;
+  left: 845px;
+  top: 297px;
+  width: 42px;
+  height: 38px;
+  z-index: 1;
+}
+    #north215-locked {
+  position: absolute;
+  left: 405px;
+  top: 186px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north213-locked {
+  position: absolute;
+  left: 399px;
+  top: 265px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north211-locked {
+  position: absolute;
+  left: 392px;
+  top: 349px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north208-locked {
+  position: absolute;
+  left: 959px;
+  top: 505px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north209-locked {
+  position: absolute;
+  left: 401px;
+  top: 434px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north207-locked {
+  position: absolute;
+  left: 404px;
+  top: 516px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north205-locked {
+  position: absolute;
+  left: 409px;
+  top: 597px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north203-locked {
+  position: absolute;
+  left: 408px;
+  top: 683px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north201-locked {
+  position: absolute;
+  left: 403px;
+  top: 767px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north206-locked {
+  position: absolute;
+  left: 958px;
+  top: 593px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north204-locked {
+  position: absolute;
+  left: 958px;
+  top: 677px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north202-locked {
+  position: absolute;
+  left: 953px;
+  top: 752px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north224-locked {
+  position: absolute;
+  left: 769px;
+  top: 162px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north220-locked {
+  position: absolute;
+  left: 851px;
+  top: 164px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north228-locked {
+  position: absolute;
+  left: 718px;
+  top: 161px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north227-locked {
+  position: absolute;
+  left: 645px;
+  top: 162px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north223-locked {
+  position: absolute;
+  left: 591px;
+  top: 162px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north219-locked {
+  position: absolute;
+  left: 514px;
+  top: 164px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north225-locked {
+  position: absolute;
+  left: 587px;
+  top: 293px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north221-locked {
+  position: absolute;
+  left: 520px;
+  top: 300px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+
+    #north216-occupied {
+  position: absolute;
+  left: 943px;
+  top: 186px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north222-occupied {
+  position: absolute;
+  left: 771px;
+  top: 299px;
+  width: 45px;
+  height: 42px;
+  z-index: 1;
+}
+    #north214-occupied {
+  position: absolute;
+  left: 941px;
+  top: 262px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north212-occupied {
+  position: absolute;
+  left: 949px;
+  top: 348px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north210-occupied {
+  position: absolute;
+  left: 951px;
+  top: 426px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north226-occupied {
+  position: absolute;
+  left: 847px;
+  top: 300px;
+  width: 43px;
+  height: 40px;
+  z-index: 1;
+}
+    #north215-occupied {
+  position: absolute;
+  left: 403px;
+  top: 185px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north213-occupied {
+  position: absolute;
+  left: 398px;
+  top: 264px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north211-occupied {
+  position: absolute;
+  left: 393px;
+  top: 351px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north208-occupied {
+  position: absolute;
+  left: 954px;
+  top: 505px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north209-occupied {
+  position: absolute;
+  left: 399px;
+  top: 431px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north207-occupied {
+  position: absolute;
+  left: 402px;
+  top: 514px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north205-occupied {
+  position: absolute;
+  left: 409px;
+  top: 595px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north203-occupied {
+  position: absolute;
+  left: 406px;
+  top: 682px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north201-occupied {
+  position: absolute;
+  left: 402px;
+  top: 766px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north206-occupied {
+  position: absolute;
+  left: 955px;
+  top: 590px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north204-occupied {
+  position: absolute;
+  left: 957px;
+  top: 675px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north202-occupied {
+  position: absolute;
+  left: 951px;
+  top: 753px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+}
+    #north224-occupied {
+  position: absolute;
+  left: 767px;
+  top: 163px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north220-occupied {
+  position: absolute;
+  left: 852px;
+  top: 162px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north228-occupied {
+  position: absolute;
+  left: 718px;
+  top: 161px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north227-occupied {
+  position: absolute;
+  left: 645px;
+  top: 163px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north223-occupied {
+  position: absolute;
+  left: 592px;
+  top: 162px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north219-occupied {
+  position: absolute;
+  left: 516px;
+  top: 162px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north225-occupied {
+  position: absolute;
+  left: 585px;
+  top: 291px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+    #north221-occupied {
+  position: absolute;
+  left: 521px;
+  top: 297px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}

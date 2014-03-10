@@ -1,0 +1,432 @@
+#linde202-locked {
+	position: absolute;
+	left: 388px;
+	top: 180px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde201-locked {
+	position: absolute;
+	left: 388px;
+	top: 240px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde203-locked {
+	position: absolute;
+	left: 449px;
+	top: 152px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde204-locked {
+	position: absolute;
+	left: 520px;
+	top: 153px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde207-locked {
+	position: absolute;
+	left: 583px;
+	top: 144px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde208-locked {
+	position: absolute;
+	left: 653px;
+	top: 151px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde211-locked {
+	position: absolute;
+	left: 714px;
+	top: 199px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde212-locked {
+	position: absolute;
+	left: 772px;
+	top: 141px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde213-locked {
+	position: absolute;
+	left: 842px;
+	top: 151px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde216-locked {
+	position: absolute;
+	left: 905px;
+	top: 174px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde217-locked {
+	position: absolute;
+	left: 900px;
+	top: 236px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde219-locked {
+	position: absolute;
+	left: 895px;
+	top: 330px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde222-locked {
+	position: absolute;
+	left: 897px;
+	top: 410px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde227-locked {
+	position: absolute;
+	left: 898px;
+	top: 484px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde229-locked {
+	position: absolute;
+	left: 895px;
+	top: 566px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde230-locked {
+	position: absolute;
+	left: 898px;
+	top: 655px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde231-locked {
+	position: absolute;
+	left: 909px;
+	top: 711px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde232-locked {
+	position: absolute;
+	left: 900px;
+	top: 759px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde233-locked {
+	position: absolute;
+	left: 847px;
+	top: 756px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde236-locked {
+	position: absolute;
+	left: 779px;
+	top: 757px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde237-locked {
+	position: absolute;
+	left: 716px;
+	top: 687px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde239-locked {
+	position: absolute;
+	left: 652px;
+	top: 751px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde240-locked {
+	position: absolute;
+	left: 587px;
+	top: 756px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde243-locked {
+	position: absolute;
+	left: 522px;
+	top: 758px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde244-locked {
+	position: absolute;
+	left: 454px;
+	top: 760px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde246-locked {
+	position: absolute;
+	left: 393px;
+	top: 728px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde247-locked {
+	position: absolute;
+	left: 394px;
+	top: 671px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+#linde202-occupied {
+	position: absolute;
+	left: 388px;
+	top: 180px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde201-occupied {
+	position: absolute;
+	left: 388px;
+	top: 240px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde203-occupied {
+	position: absolute;
+	left: 449px;
+	top: 152px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde204-occupied {
+	position: absolute;
+	left: 520px;
+	top: 153px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde207-occupied {
+	position: absolute;
+	left: 583px;
+	top: 144px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde208-occupied {
+	position: absolute;
+	left: 653px;
+	top: 151px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde211-occupied {
+	position: absolute;
+	left: 714px;
+	top: 199px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde212-occupied {
+	position: absolute;
+	left: 772px;
+	top: 141px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde213-occupied {
+	position: absolute;
+	left: 842px;
+	top: 151px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde216-occupied {
+	position: absolute;
+	left: 905px;
+	top: 174px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde217-occupied {
+	position: absolute;
+	left: 900px;
+	top: 236px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde219-occupied {
+	position: absolute;
+	left: 895px;
+	top: 330px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde222-occupied {
+	position: absolute;
+	left: 897px;
+	top: 410px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde227-occupied {
+	position: absolute;
+	left: 898px;
+	top: 484px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde229-occupied {
+	position: absolute;
+	left: 895px;
+	top: 566px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde230-occupied {
+	position: absolute;
+	left: 898px;
+	top: 655px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde231-occupied {
+	position: absolute;
+	left: 909px;
+	top: 711px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde232-occupied {
+	position: absolute;
+	left: 900px;
+	top: 759px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde233-occupied {
+	position: absolute;
+	left: 847px;
+	top: 756px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde236-occupied {
+	position: absolute;
+	left: 779px;
+	top: 757px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde237-occupied {
+	position: absolute;
+	left: 716px;
+	top: 687px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde239-occupied {
+	position: absolute;
+	left: 652px;
+	top: 751px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde240-occupied {
+	position: absolute;
+	left: 587px;
+	top: 756px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde243-occupied {
+	position: absolute;
+	left: 522px;
+	top: 758px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde244-occupied {
+	position: absolute;
+	left: 454px;
+	top: 760px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde246-occupied {
+	position: absolute;
+	left: 393px;
+	top: 728px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
+    #linde247-occupied {
+	position: absolute;
+	left: 394px;
+	top: 671px;
+	width: 39px;
+	height: 38px;
+	z-index: 1;
+}
