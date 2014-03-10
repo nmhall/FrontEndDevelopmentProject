@@ -9,22 +9,33 @@
 </head>
 <body>
     
-    <div class="sidebar">
-    
-    	<div class="userName">Nathan Hall</div>
-    	<div class="priorityNumber">45</div>
-    	<div class="currentDorm">Select a Dorm</div>
-    	<div class="sidebarStats">Open Singles: 15 of 40</div> 
-    	<div class="sidebarStats">Open Doubles: 50 of 180</div>
-    	<div class="sidebarStats">Open Triples: 3 of 14</div>
-    	<div class="sidebarStats">Open Quads: 1 of 4</div>
-    	<div class="sidebarStats">
-    		<button name="FullStatsButton" type="button" id="FullStatsButton">See Full Statistics</button>
-    	</div>
-    
+   <div class="sidebar">
+      <div class="sidebarSection user">
+        <div class="infoHeader">User Info</div>
+        <div class="userName">Nathan Hall</div>
+        <div class="priorityNumber">Junior 45</div>
+      </div> <!-- user info section -->
+      <div class="sidebarSection stats">
+        <div class="infoHeader">Campus Info</div>
+        <div class="sidebarStats">Open Singles: 15 of 40</div>
+        <div class="sidebarStats">Open Doubles: 50 of 180</div>
+        <div class="sidebarStats">Open Triples: 3 of 14</div>
+        <div class="sidebarStats">Open Quads: 1 of 4</div>
+        <div class="sidebarStats">
+          <button name="FullStatsButton" type="button" id="FullStatsButton">See Full Statistics</button>
+        </div>
+      </div> <!-- sidebar stats section -->
     
     </div>
 <div id="header">You are currently not in a room</div>
+<div id="floorTabs">
+  <ul id="tabnav">
+    <li><a href="FrontPageAllDorms.html">Back to Campus Map</a></li>
+    <li class="currentTab"><a href="East1st.html">1st Floor</a></li>
+    <li><a href="East2nd.html">2nd Floor</a></li>
+  </ul>
+</div>
+
 <div class="map">
 <img src="Images/East 1st Floor.png" width="1000" height="800" usemap="#East">
 <map name="East">
