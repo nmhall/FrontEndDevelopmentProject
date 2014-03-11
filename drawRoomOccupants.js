@@ -2,8 +2,8 @@ var occupancies = {};
 // Hard-coded occupancies for Atwood, not a long-term solution
 occupancies['atwood103'] = 'Locked';
 occupancies['atwood105'] = 'Locked';
-occupancies['atwood109'] = 'Open';
-occupancies['atwood111'] = 'Open';
+occupancies['atwood109'] = 'Occupied';
+occupancies['atwood111'] = 'Occupied';
 var rooms = document.getElementsByTagName('area');
 
 for(var i = 0; i < rooms.length; i++) {
@@ -20,6 +20,18 @@ for(var i = 0; i < rooms.length; i++) {
     if (lockedDiv) {
         lockedDiv.addEventListener('click', displayOccupiedRoomStatus, false);
     }
+    if (occupancies[id] == 'Locked') {
+        lockedDiv.style.zIndex = '1';
+        occDiv.style.zIndex= '-1';
+    }
+    else if (occupancies[id] == 'Occupied') {
+        lockedDiv.style.zIndex = '-1';
+        occDiv.style.zIndex = '1';
+    }
+    else {
+        lockedDiv.style.zIndex = '-1';
+        occDiv.style.zIndex = '-1';
+    }
 }
 
 function displayRoomStatus() {
@@ -27,7 +39,7 @@ function displayRoomStatus() {
     if (occupancies[roomId] == 'Locked') {
         alert('This room is currently taken by a number with higher priority.');
     }
-    else if (occupancies[roomId] == 'Open') {
+    else if (occupancies[roomId] == 'Occupied') {
         alert('This room is currently taken, but by a number with lower priority. You may take it if you wish.');
     }
     else {
@@ -41,7 +53,7 @@ function displayOccupiedRoomStatus() {
     if (occupancies[roomId] ==  'Locked') {
         alert('This room is currently taken by a number with higher priority.');
     }
-    else if (occupancies[roomId] == 'Open') {
+    else if (occupancies[roomId] == 'Occupied') {
         alert('This room is currently taken, but by a number with lower priority. You may take it if you wish.');
     }
     else {
