@@ -1,417 +1,468 @@
-#east116-locked {
-	position: absolute;
-	left: 403px;
-	top: 196px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east122-locked {
-	position: absolute;
-	left: 514px;
-	top: 319px;
-	width: 43px;
-	height: 40px;
-	z-index: 1;
-}
-    #east114-locked {
-	position: absolute;
-	left: 400px;
-	top: 276px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east112-locked {
-	position: absolute;
-	left: 402px;
-	top: 357px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east110-locked {
-	position: absolute;
-	left: 405px;
-	top: 434px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east126-locked {
-	position: absolute;
-	left: 591px;
-	top: 312px;
-	width: 44px;
-	height: 41px;
-	z-index: 1;
-}
-    #east115-locked {
-	position: absolute;
-	left: 947px;
-	top: 182px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east113-locked {
-	position: absolute;
-	left: 943px;
-	top: 265px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east111-locked {
-	position: absolute;
-	left: 943px;
-	top: 347px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east108-locked {
-	position: absolute;
-	left: 403px;
-	top: 515px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east109-locked {
-	position: absolute;
-	left: 944px;
-	top: 427px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east107-locked {
-	position: absolute;
-	left: 940px;
-	top: 513px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east105-locked {
-  position: absolute;
-  left: 934px;
-  top: 586px;
-  width: 53px;
-  height: 54px;
-  z-index: 1;
-}
-    #east103-locked {
-  position: absolute;
-  left: 936px;
-  top: 673px;
-  width: 53px;
-  height: 54px;
-  z-index: 1;
-}
-    #east101-locked {
-  position: absolute;
-  left: 936px;
-  top: 750px;
-  width: 53px;
-  height: 54px;
-  z-index: 1;
-}
-    #east106-locked {
-	position: absolute;
-	left: 427px;
-	top: 606px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east104-locked {
-	position: absolute;
-	left: 423px;
-	top: 687px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east102-locked {
-	position: absolute;
-	left: 426px;
-	top: 762px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
-}
-    #east124-locked {
-	position: absolute;
-	left: 593px;
-	top: 170px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
-}
-    #east120-locked {
-	position: absolute;
-	left: 513px;
-	top: 174px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
-}
-    #east128-locked {
-	position: absolute;
-	left: 642px;
-	top: 172px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
-}
-    #east127-locked {
-	position: absolute;
-	left: 717px;
-	top: 170px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
-}
-    #east123-locked {
-	position: absolute;
-	left: 765px;
-	top: 166px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
-}
-    #east119-locked {
-	position: absolute;
-	left: 848px;
-	top: 166px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
-}
-    #east125-locked {
-	position: absolute;
-	left: 774px;
-	top: 313px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
-}
-    #east121-locked {
-	position: absolute;
-	left: 839px;
-	top: 310px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
-}
-
     #east116-occupied {
-	position: absolute;
-	left: 401px;
-	top: 195px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 943px;
+  top: 236px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east122-occupied {
-	position: absolute;
-	left: 518px;
-	top: 314px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
+  position: absolute;
+  left: 852px;
+  top: 337px;
+  width: 45px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
 }
     #east114-occupied {
-	position: absolute;
-	left: 400px;
-	top: 276px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 949px;
+  top: 332px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east112-occupied {
-	position: absolute;
-	left: 404px;
-	top: 359px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 949px;
+  top: 398px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east110-occupied {
-	position: absolute;
-	left: 404px;
-	top: 436px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 951px;
+  top: 476px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east126-occupied {
-	position: absolute;
-	left: 593px;
-	top: 310px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
+  position: absolute;
+  left: 772px;
+  top: 337px;
+  width: 43px;
+  height: 40px;
+  z-index: 1;
+  cursor: pointer
 }
     #east115-occupied {
-	position: absolute;
-	left: 944px;
-	top: 179px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 403px;
+  top: 235px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east113-occupied {
-	position: absolute;
-	left: 944px;
-	top: 265px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 398px;
+  top: 314px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east111-occupied {
-	position: absolute;
-	left: 944px;
-	top: 347px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 393px;
+  top: 401px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east108-occupied {
-	position: absolute;
-	left: 403px;
-	top: 514px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 954px;
+  top: 555px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east109-occupied {
-	position: absolute;
-	left: 941px;
-	top: 430px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 399px;
+  top: 481px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east107-occupied {
-	position: absolute;
-	left: 941px;
-	top: 513px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 402px;
+  top: 564px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east105-occupied {
   position: absolute;
-  left: 934px;
-  top: 586px;
+  left: 409px;
+  top: 645px;
   width: 53px;
   height: 54px;
   z-index: 1;
+  cursor: pointer
 }
     #east103-occupied {
   position: absolute;
-  left: 936px;
-  top: 673px;
+  left: 406px;
+  top: 732px;
   width: 53px;
   height: 54px;
   z-index: 1;
+  cursor: pointer
 }
     #east101-occupied {
   position: absolute;
-  left: 936px;
-  top: 750px;
+  left: 402px;
+  top: 816px;
   width: 53px;
   height: 54px;
   z-index: 1;
+  cursor: pointer
 }
     #east106-occupied {
-	position: absolute;
-	left: 423px;
-	top: 608px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 955px;
+  top: 650px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east104-occupied {
-	position: absolute;
-	left: 424px;
-	top: 688px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 957px;
+  top: 725px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east102-occupied {
-	position: absolute;
-	left: 425px;
-	top: 766px;
-	width: 53px;
-	height: 54px;
-	z-index: 1;
+  position: absolute;
+  left: 957px;
+  top: 823px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
 }
     #east124-occupied {
-	position: absolute;
-	left: 593px;
-	top: 172px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
+  position: absolute;
+  left: 767px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
 }
     #east120-occupied {
-	position: absolute;
-	left: 512px;
-	top: 174px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
+  position: absolute;
+  left: 852px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
 }
     #east128-occupied {
-	position: absolute;
-	left: 643px;
-	top: 172px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
+  position: absolute;
+  left: 718px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
 }
     #east127-occupied {
-	position: absolute;
-	left: 717px;
-	top: 168px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
+  position: absolute;
+  left: 645px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
 }
     #east123-occupied {
-	position: absolute;
-	left: 767px;
-	top: 167px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
+  position: absolute;
+  left: 592px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
 }
     #east119-occupied {
-	position: absolute;
-	left: 847px;
-	top: 165px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
+  position: absolute;
+  left: 516px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
 }
     #east125-occupied {
-	position: absolute;
-	left: 774px;
-	top: 313px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
+  position: absolute;
+  left: 585px;
+  top: 337px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
 }
     #east121-occupied {
-	position: absolute;
-	left: 838px;
-	top: 310px;
-	width: 42px;
-	height: 42px;
-	z-index: 1;
+  position: absolute;
+  left: 521px;
+  top: 337px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east116-locked {
+  position: absolute;
+  left: 943px;
+  top: 236px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east122-locked {
+  position: absolute;
+  left: 852px;
+  top: 337px;
+  width: 45px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east114-locked {
+  position: absolute;
+  left: 949px;
+  top: 332px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east112-locked {
+  position: absolute;
+  left: 949px;
+  top: 398px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east110-locked {
+  position: absolute;
+  left: 951px;
+  top: 476px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east126-locked {
+  position: absolute;
+  left: 772px;
+  top: 337px;
+  width: 43px;
+  height: 40px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east115-locked {
+  position: absolute;
+  left: 403px;
+  top: 235px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east113-locked {
+  position: absolute;
+  left: 398px;
+  top: 314px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east111-locked {
+  position: absolute;
+  left: 393px;
+  top: 401px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east108-locked {
+  position: absolute;
+  left: 954px;
+  top: 555px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east109-locked {
+  position: absolute;
+  left: 399px;
+  top: 481px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east107-locked {
+  position: absolute;
+  left: 402px;
+  top: 564px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east105-locked {
+  position: absolute;
+  left: 409px;
+  top: 645px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east103-locked {
+  position: absolute;
+  left: 406px;
+  top: 732px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east101-locked {
+  position: absolute;
+  left: 402px;
+  top: 816px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east106-locked {
+  position: absolute;
+  left: 955px;
+  top: 650px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east104-locked {
+  position: absolute;
+  left: 957px;
+  top: 725px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east102-locked {
+  position: absolute;
+  left: 957px;
+  top: 823px;
+  width: 53px;
+  height: 54px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east124-locked {
+  position: absolute;
+  left: 767px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east120-locked {
+  position: absolute;
+  left: 852px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east128-locked {
+  position: absolute;
+  left: 718px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east127-locked {
+  position: absolute;
+  left: 645px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east123-locked {
+  position: absolute;
+  left: 592px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east119-locked {
+  position: absolute;
+  left: 516px;
+  top: 202px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east125-locked {
+  position: absolute;
+  left: 585px;
+  top: 337px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
+}
+    #east121-locked {
+  position: absolute;
+  left: 521px;
+  top: 337px;
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+  cursor: pointer
 }
