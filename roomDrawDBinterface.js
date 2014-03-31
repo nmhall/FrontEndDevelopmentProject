@@ -1,117 +1,72 @@
 
-//establish a connection with the DB and give DB var out to use as well as dorm name/floor
-var setupDB = function()
-{
-  var fs = require("fs");
-  var http = require("http");
-  var url = require("url");
-  var file = "roomDraw.db";
-  var exists = fs.existsSync(file);
+var rooms = TAFFY();	
 
-  if(!exists) 
-  {
-    console.log("Creating DB file.");
-    fs.openSync(file, "w");
-  }  
-var sqlite3 = require("sqlite3").verbose();
-var db = new sqlite3.Database(file);
-var pathArray = window.location.pathname.split( '/' );
-var currentFile = pathArray[pathArray.length - 1];
-var currentDormLoc = currentFile.substring(0, currentFile.indexOf('.html'));
-return [db, currentDormLoc];
-};
 
-//convert class to priority number for easy priority compare
-// senior = 1000
-// junior = 2000
-// soph = 3000
-// admin = 0
-var classToPriority = function(personClass)
-{
-  if (personClass == 'admin'
-    return 0;
-  if (personClass == 'sophomore')
-    return 3000;
-  if (personClass == 'junior')
-    return 2000;
-  if (personClass == 'senior')
-    return 1000;
-};
+
 
 //check the DB if the room is occupied or not
-var isRoomOccupied = function(room)
+var isRoomOccupied = function(roomNumber)
 {
-  var data = setupDB();
-  var db = data[0];
-  var currentDormLoc = data[1];
-  db.get("SELECT * FROM " + currentDormLoc + " WHERE room = " + room +";", var occupantClass);
-
-
-  if(!occupantClass)
-    return false;
-  else
-    return true;
-  db.close();
+	if(rooms({room:roomNumber}).count() > 0)
+		return true;
+	return false;
+	
 };
 
 // add a person to the room
 // WARNING: this currently contains no logic with regards to 
 // partially-filled rooms, triples, quads, people not pulling anyone, 
 // or pulling someone into a single. 
-var addPerson = function (room, roomType, person, pull, personClass, priority)
+var addPerson = function (roomNumber, roomType, person, pull, personClass, priorityNumber)
 {
-  var roomOccupied = isRoomOccupied(room);
-  var data = setupDB();
-  var db = data[0];
-  var currentDormLoc = data[1];
+  var roomOccupied = isRoomOccupied(roomNumber);
   
   if(roomOccupied)
-    db.run("DELETE FROM "+currentDormLoc + " WHERE room = " + room +";");
+  	rooms().remove({room:roomNumber});
 
-  db.run("INSERT INTO " + currentDormLoc + " (room,type, person1, person2, class, priority) VALUES (" +
-         room + ","+roomType+","+person+","+pull+","+personClass+","+toString(priority)+");" );
-db.close();
+  rooms.insert({room:roomNumber,type:roomType,person1:person,person2:pull,
+  	class:personClass,priority:priorityNumber});
 };
 
 // check if the person is able to be added to a room
-var canAddPerson = function (room, personClass, priority)
+var canAddPerson = function (roomNumber, personClass, priorityNumber)
 {
-  if(!isRoomOccupied(room))
+  if(!isRoomOccupied(roomNumber))
     return true;
+  var currentRoom = rooms().filter({room:roomNumber});
+  var currentPriority = currentRoom.select("priority")[0];
+  var currentClass = currentRoom.select("class")[0];
 
-  var data = setupDB();
-  var db = data[0];
-  var currentDormLoc = data[1];
-  db.get("SELECT class FROM " + currentDormLoc + " WHERE room = " + room +";", var occupantClass);
-  db.get("SELECT priority FROM " + currentDormLoc + " WHERE room = " + room +";", var occupantPriority);
-
-
-  db.close();
-  if ( priority + classToPriority(personClass) < occupantPriority + classToPriority(occupantClass))
-    return true;
-  else
-    return false;
-
+  if(classAndNumToPriority(personClass,priorityNumber) < 
+  		classAndNumToPriority(currentClass,currentPriority))
+	return true;
+  else 
+  	return false;
 };
 
-db.serialize(function() {
-  if(!exists) {
-    db.run("CREATE TABLE Stuff (thing TEXT)");
-  }
+var classAndNumToPriority = function(classType, priorityNumber)
+{
+	if(classType == "admin")
+		return 0;
+	else if(classType == "senior")
+		return priorityNumber + 1000;
+	else if(classType == "junior")
+		return priorityNumber + 2000;
+	else if(classType == "sophomore")
+		return priorityNumber + 3000;
+	else 
+		alert("bad Class");
+	
+}
 
-  var stmt = db.prepare("INSERT INTO Stuff VALUES (?)");
+/*
+var pathArray = window.location.pathname.split( '/' );
+var currentFile = pathArray[pathArray.length - 1];
+var currentDormLoc = currentFile.substring(0, 
+	currentFile.indexOf('.html'));
+console.log(currentDormLoc);
+var jsonFile = $.getJSON(currentDormLoc+".json");
+var jsonInfo = $.parseJSON(jsonFile);
 
-  //Insert random data
-  var rnd;
-  for (var i = 0; i &lt; 10; i++) {
-    rnd = Math.floor(Math.random() * 10000000);
-    stmt.run("Thing #" + rnd);
-  }
-
-  stmt.finalize();
-  db.each("SELECT rowid AS id, thing FROM Stuff", function(err, row) {
-    console.log(row.id + ": " + row.thing);
-  });
-});
-
-db.close();
+console.log(jsonFile);
+console.log(jsonInfo);*/
