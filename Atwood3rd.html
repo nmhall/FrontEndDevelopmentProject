@@ -2,6 +2,7 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <script src="taffydb-master/taffy.js"></script>
     <link rel="stylesheet" type="text/css" href="frontPageStyle.css">
     <link rel="stylesheet" type="text/css" href="atwood3rdStyle.css">
     <meta charset="utf-8" />
@@ -130,6 +131,22 @@
 <div id="atwood323-occupied"><img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
 <div id="atwood325-occupied"><img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
 <div id="atwood327-occupied"><img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div style="float:right;" id="PriorityInfo">
+<h3>Priority Information</h3>
+Full Name: <input type="text" id="fullName">
+<br/>
+    Year:
+    <select id="prioritySelect">
+        <option value="None">None Selected</option>
+        <option value="Admin">Admin</option>
+        <option value="Senior">Rising Senior</option>
+        <option value="Junior">Rising Junior</option>
+        <option value="Sophomore">Rising Sophomore<option>
+    </select>
+    <br/>
+    Priority number: <input type="number" id="priorityNumber" min="1" max="300">
+<select
+</div>
 <script src="drawRoomOccupants.js"></script>
 </body>
 </html>
