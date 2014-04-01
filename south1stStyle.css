@@ -1,110 +1,110 @@
     #south304A-occupied {
 	position: absolute;
-	left: 1007px;
-	top: 527px;
+	left: 1121px;
+	top: 546px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south302B-occupied {
 	position: absolute;
-	left: 1006px;
-	top: 654px;
+	left: 1123px;
+	top: 701px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south304C-occupied {
 	position: absolute;
-	left: 953px;
-	top: 604px;
+	left: 1043px;
+	top: 640px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south304B-occupied {
 	position: absolute;
-	left: 1005px;
-	top: 593px;
+	left: 1123px;
+	top: 630px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south302A-occupied {
 	position: absolute;
-	left: 946px;
-	top: 651px;
+	left: 1041px;
+	top: 693px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south302C-occupied {
 	position: absolute;
-	left: 1005px;
-	top: 721px;
+	left: 1121px;
+	top: 776px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south302D-occupied {
 	position: absolute;
-	left: 996px;
-	top: 775px;
+	left: 1104px;
+	top: 845px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south301A-occupied {
-  position: absolute;
-  left: 459px;
-  top: 654px;
-  width: 38px;
-  height: 36px;
-  z-index: 2;
-    cursor: pointer
+	position: absolute;
+	left: 339px;
+	top: 690px;
+	width: 38px;
+	height: 36px;
+	z-index: 2;
+	cursor: pointer
 }
     #south301B-occupied {
-  position: absolute;
-  left: 402px;
-  top: 670px;
-  width: 38px;
-  height: 36px;
-  z-index: 2;
-    cursor: pointer
+	position: absolute;
+	left: 261px;
+	top: 695px;
+	width: 38px;
+	height: 36px;
+	z-index: 2;
+	cursor: pointer
 }
     #south301C-occupied {
 	position: absolute;
-	left: 402px;
-	top: 733px;
+	left: 263px;
+	top: 776px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south301D-occupied {
 	position: absolute;
-	left: 414px;
-	top: 789px;
+	left: 272px;
+	top: 844px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south307B-occupied {
-  position: absolute;
-  left: 398px;
-  top: 264px;
-  width: 46px;
-  height: 44px;
-  z-index: 3;
-    cursor: pointer
+	position: absolute;
+	left: 257px;
+	top: 227px;
+	width: 46px;
+	height: 44px;
+	z-index: 3;
+	cursor: pointer
 }#south363-occupied {
   position: absolute;
   left: 714px;
@@ -125,39 +125,39 @@
 }
     #south307D-occupied {
 	position: absolute;
-	left: 454px;
-	top: 346px;
+	left: 340px;
+	top: 318px;
 	width: 43px;
 	height: 40px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south305A-occupied {
 	position: absolute;
-	left: 453px;
-	top: 387px;
+	left: 339px;
+	top: 372px;
 	width: 43px;
 	height: 41px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south307C-occupied {
 	position: absolute;
-	left: 400px;
-	top: 346px;
+	left: 261px;
+	top: 305px;
 	width: 44px;
 	height: 45px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south308B-occupied {
 	position: absolute;
-	left: 1007px;
-	top: 262px;
+	left: 1117px;
+	top: 229px;
 	width: 44px;
 	height: 45px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south413-occupied {
 
@@ -179,256 +179,256 @@
     cursor: pointer
 }
     #south305C-occupied {
-  position: absolute;
-  left: 399px;
-  top: 472px;
-  width: 45px;
-  height: 46px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 255px;
+	top: 462px;
+	width: 45px;
+	height: 46px;
+	z-index: 1;
+	cursor: pointer
 }
     #south305B-occupied {
-  position: absolute;
-  left: 399px;
-  top: 402px;
-  width: 41px;
-  height: 43px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 260px;
+	top: 382px;
+	width: 41px;
+	height: 43px;
+	z-index: 1;
+	cursor: pointer
 }
     #south306A-occupied {
 	position: absolute;
-	left: 948px;
-	top: 382px;
+	left: 1048px;
+	top: 373px;
 	width: 40px;
 	height: 39px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south306B-occupied {
 	position: absolute;
-	left: 1004px;
-	top: 393px;
+	left: 1119px;
+	top: 389px;
 	width: 41px;
 	height: 38px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south306C-occupied {
 	position: absolute;
-	left: 1003px;
-	top: 464px;
+	left: 1119px;
+	top: 466px;
 	width: 41px;
 	height: 39px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south303A-occupied {
-  position: absolute;
-  left: 401px;
-  top: 535px;
-  width: 40px;
-  height: 39px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 259px;
+	top: 541px;
+	width: 40px;
+	height: 39px;
+	z-index: 1;
+	cursor: pointer
 }
     #south303B-occupied {
-  position: absolute;
-  left: 404px;
-  top: 608px;
-  width: 35px;
-  height: 36px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 259px;
+	top: 622px;
+	width: 35px;
+	height: 36px;
+	z-index: 1;
+	cursor: pointer
 }
     #south303C-occupied {
-  position: absolute;
-  left: 461px;
-  top: 614px;
-  width: 37px;
-  height: 37px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 340px;
+	top: 639px;
+	width: 37px;
+	height: 37px;
+	z-index: 1;
+	cursor: pointer
 }
     #south309-occupied {
-  position: absolute;
-  left: 591px;
-  top: 266px;
-  width: 42px;
-  height: 42px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 533px;
+	top: 236px;
+	width: 42px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
 }
     #south307A-occupied {
 	position: absolute;
-	left: 406px;
-	top: 210px;
+	left: 271px;
+	top: 164px;
 	width: 42px;
 	height: 42px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south311-occupied {
-  position: absolute;
-  left: 677px;
-  top: 265px;
-  width: 42px;
-  height: 42px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 651px;
+	top: 232px;
+	width: 42px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
 }
     #south312-occupied {
-  position: absolute;
-  left: 728px;
-  top: 263px;
-  width: 42px;
-  height: 42px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 726px;
+	top: 236px;
+	width: 42px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
 }
     #south308A-occupied {
-  position: absolute;
-  left: 992px;
-  top: 205px;
-  width: 42px;
-  height: 42px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 1105px;
+	top: 164px;
+	width: 42px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
 }
     #south310-occupied {
-  position: absolute;
-  left: 815px;
-  top: 265px;
-  width: 42px;
-  height: 42px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 846px;
+	top: 235px;
+	width: 42px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
 }
     #south308C-occupied {
 	position: absolute;
-	left: 1007px;
-	top: 328px;
+	left: 1117px;
+	top: 316px;
 	width: 42px;
 	height: 42px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south308D-occupied {
 	position: absolute;
-	left: 948px;
-	top: 341px;
+	left: 1047px;
+	top: 323px;
 	width: 42px;
 	height: 42px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south304A-locked {
 	position: absolute;
-	left: 1007px;
-	top: 527px;
+	left: 1122px;
+	top: 546px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south302B-locked {
 	position: absolute;
-	left: 1006px;
-	top: 654px;
+	left: 1125px;
+	top: 702px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south304C-locked {
 	position: absolute;
-	left: 953px;
-	top: 604px;
+	left: 1045px;
+	top: 639px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south304B-locked {
 	position: absolute;
-	left: 1005px;
-	top: 593px;
+	left: 1123px;
+	top: 628px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south302A-locked {
 	position: absolute;
-	left: 946px;
-	top: 651px;
+	left: 1043px;
+	top: 691px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south302C-locked {
 	position: absolute;
-	left: 1005px;
-	top: 721px;
+	left: 1122px;
+	top: 776px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south302D-locked {
 	position: absolute;
-	left: 996px;
-	top: 775px;
+	left: 1105px;
+	top: 844px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south301A-locked {
-  position: absolute;
-  left: 459px;
-  top: 654px;
-  width: 38px;
-  height: 36px;
-  z-index: 2;
-    cursor: pointer
+	position: absolute;
+	left: 339px;
+	top: 690px;
+	width: 38px;
+	height: 36px;
+	z-index: 2;
+	cursor: pointer
 }
     #south301B-locked {
-  position: absolute;
-  left: 402px;
-  top: 670px;
-  width: 38px;
-  height: 36px;
-  z-index: 2;
-    cursor: pointer
+	position: absolute;
+	left: 260px;
+	top: 696px;
+	width: 38px;
+	height: 36px;
+	z-index: 2;
+	cursor: pointer
 }
     #south301C-locked {
 	position: absolute;
-	left: 402px;
-	top: 733px;
+	left: 265px;
+	top: 778px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south301D-locked {
 	position: absolute;
-	left: 414px;
-	top: 789px;
+	left: 272px;
+	top: 844px;
 	width: 38px;
 	height: 36px;
 	z-index: 2;
-    cursor: pointer
+	cursor: pointer
 }
     #south307B-locked {
-  position: absolute;
-  left: 398px;
-  top: 264px;
-  width: 46px;
-  height: 44px;
-  z-index: 3;
-    cursor: pointer
+	position: absolute;
+	left: 258px;
+	top: 228px;
+	width: 46px;
+	height: 44px;
+	z-index: 3;
+	cursor: pointer
 }#south363-locked {
   position: absolute;
   left: 714px;
@@ -449,39 +449,39 @@
 }
     #south307D-locked {
 	position: absolute;
-	left: 454px;
-	top: 346px;
+	left: 341px;
+	top: 320px;
 	width: 43px;
 	height: 40px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south305A-locked {
 	position: absolute;
-	left: 453px;
-	top: 387px;
+	left: 340px;
+	top: 373px;
 	width: 43px;
 	height: 41px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south307C-locked {
 	position: absolute;
-	left: 400px;
-	top: 346px;
+	left: 262px;
+	top: 304px;
 	width: 44px;
 	height: 45px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south308B-locked {
 	position: absolute;
-	left: 1007px;
-	top: 262px;
+	left: 1118px;
+	top: 231px;
 	width: 44px;
 	height: 45px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south413-locked {
 
@@ -503,146 +503,146 @@
     cursor: pointer
 }
     #south305C-locked {
-  position: absolute;
-  left: 399px;
-  top: 472px;
-  width: 45px;
-  height: 46px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 254px;
+	top: 461px;
+	width: 45px;
+	height: 46px;
+	z-index: 1;
+	cursor: pointer
 }
     #south305B-locked {
-  position: absolute;
-  left: 399px;
-  top: 402px;
-  width: 41px;
-  height: 43px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 261px;
+	top: 381px;
+	width: 41px;
+	height: 43px;
+	z-index: 1;
+	cursor: pointer
 }
     #south306A-locked {
 	position: absolute;
-	left: 948px;
-	top: 382px;
+	left: 1047px;
+	top: 373px;
 	width: 40px;
 	height: 39px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south306B-locked {
 	position: absolute;
-	left: 1004px;
-	top: 393px;
+	left: 1120px;
+	top: 389px;
 	width: 41px;
 	height: 38px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south306C-locked {
 	position: absolute;
-	left: 1003px;
-	top: 464px;
+	left: 1121px;
+	top: 465px;
 	width: 41px;
 	height: 39px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south303A-locked {
-  position: absolute;
-  left: 401px;
-  top: 535px;
-  width: 40px;
-  height: 39px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 259px;
+	top: 540px;
+	width: 40px;
+	height: 39px;
+	z-index: 1;
+	cursor: pointer
 }
     #south303B-locked {
-  position: absolute;
-  left: 404px;
-  top: 608px;
-  width: 35px;
-  height: 36px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 261px;
+	top: 622px;
+	width: 35px;
+	height: 36px;
+	z-index: 1;
+	cursor: pointer
 }
     #south303C-locked {
-  position: absolute;
-  left: 461px;
-  top: 614px;
-  width: 37px;
-  height: 37px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 340px;
+	top: 639px;
+	width: 37px;
+	height: 37px;
+	z-index: 1;
+	cursor: pointer
 }
     #south309-locked {
-  position: absolute;
-  left: 591px;
-  top: 266px;
-  width: 42px;
-  height: 42px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 533px;
+	top: 237px;
+	width: 42px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
 }
     #south307A-locked {
 	position: absolute;
-	left: 406px;
-	top: 210px;
+	left: 271px;
+	top: 164px;
 	width: 42px;
 	height: 42px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south311-locked {
-  position: absolute;
-  left: 677px;
-  top: 265px;
-  width: 42px;
-  height: 42px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 650px;
+	top: 234px;
+	width: 42px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
 }
     #south312-locked {
-  position: absolute;
-  left: 728px;
-  top: 263px;
-  width: 42px;
-  height: 42px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 726px;
+	top: 238px;
+	width: 42px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
 }
     #south308A-locked {
-  position: absolute;
-  left: 992px;
-  top: 205px;
-  width: 42px;
-  height: 42px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 1105px;
+	top: 163px;
+	width: 42px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
 }
     #south310-locked {
-  position: absolute;
-  left: 815px;
-  top: 265px;
-  width: 42px;
-  height: 42px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 846px;
+	top: 237px;
+	width: 42px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
 }
     #south308C-locked {
 	position: absolute;
-	left: 1007px;
-	top: 328px;
+	left: 1118px;
+	top: 316px;
 	width: 42px;
 	height: 42px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #south308D-locked {
 	position: absolute;
-	left: 948px;
-	top: 341px;
+	left: 1048px;
+	top: 323px;
 	width: 42px;
 	height: 42px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
