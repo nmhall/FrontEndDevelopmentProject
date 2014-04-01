@@ -31,17 +31,15 @@ function putStudentInRoom(id) {
         }
         var prioritySelect = document.getElementById('prioritySelect');
         var priorityLevel = prioritySelect.options[prioritySelect.selectedIndex].value;
-        alert('Priority Level is ' + priorityLevel);
         if (priorityLevel == 'None Selected') {
             alert('You must choose a year in order to add yourself to a room');
             return;
         }
         var priorityNumberString = document.getElementById('priorityNumber').value;
         var priorityNumber = -1;
-        if(priorityNumberString != '') {
+        if(priorityNumberString != '' && priorityLevel != 'Admin') {
             priorityNumber = parseInt(priorityNumberString);
         }
-        alert('Priority Number is ' + priorityNumber);
         if (priorityLevel != 'Admin' && priorityNumber == -1) {
             alert('You must enter a priority number for the room');
             return;
