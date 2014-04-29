@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="taffydb-master/taffy.js"></script>
+    <script src="mockRoomData.js"></script>
+    <script src="sidebarStats.js"></script>
+    <link rel="stylesheet" type="text/css" href="frontPageStyle.css">
+    <link rel="stylesheet" type="text/css" href="east2ndStyle.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    
+   <div class="sidebar">
+      <div class="sidebarSection user">
+        <div class="infoHeader">User Info</div>
+        <div class="userName">Nathan Hall</div>
+        <div class="priorityNumber">Junior 45</div>
+      </div> <!-- user info section -->
+      <div class="sidebarSection stats">
+        <div class="infoHeader">Dorm Info</div>
+<div id="openSingles" class="sidebarStats">Singles: <span id="openSinglesNum">0</span> of <span id="singlesNum">0</span> avaliable</div>
+        <div id="openDoubles"class="sidebarStats">Doubles: <span id="openDoublesNum">0</span> of <span id="doublesNum">0</span> avaliable</div>
+        <div id="openTriples" class="sidebarStats">Triples: <span id="openTriplesNum">0</span> of <span id="triplesNum">0</span> avaliable</div>
+        <div id="openQuads" class="sidebarStats">Quads: <span id="openQuadsNum">0</span> of <span id="QuadsNum">0</span> avaliable</div>
+        <div class="sidebarStats">
+          <button name="FullStatsButton" type="button" id="FullStatsButton">See Full Statistics</button>
+        </div>
+      </div> <!-- sidebar stats section -->
+
+    </div>
+<div id="header">Fill out the information and click on a room to place a student in it</div>
+<div id="floorTabs">
+  <ul id="tabnav">
+    <li><a href="FrontPageAllDorms.html">Back to Campus Map</a></li>
+    <li class="currentTab"><a href="BrightonAll.html">Apartment List</a></li>
+  </ul>
+</div>
+
+<div class="map">
+
+
+<img src="Images/BRP.jpg" width="1000" height="800" usemap="#East">
+<map name="East"><area id="brighton1418CD" shape="rect" coords="416,138,746,182" href="#1418CD" target="_self" alt="1418C D">
+
+  <area id="brighton698CA" shape="rect" coords="239,657,418,702" href="#698CA" target="_self" alt="698C A">
+  <area id="brighton698AA" shape="rect" coords="239,615,418,658" href="#698AA" target="_self" alt="698A A">
+  <area id="brighton682AA" shape="rect" coords="237,572,418,614" href="#682AA" target="_self" alt="682A A">
+  <area id="brighton674AA" shape="rect" coords="239,527,417,570" href="#674AA" target="_self" alt="674A A">
+  <area id="brighton668CA" shape="rect" coords="239,485,417,527" href="#668CA" target="_self" alt="668C A">
+  <area id="brighton668AA" shape="rect" coords="238,439,418,483" href="#668AA" target="_self" alt="668A A">
+  <area id="brighton647AA" shape="rect" coords="237,397,417,439" href="#647AA" target="_self" alt="647A A">
+  <area id="brighton1433CA" shape="rect" coords="238,354,418,397" href="#1433CA" target="_self" alt="1433C A">
+  <area id="brighton1426CA" shape="rect" coords="239,225,416,266" href="#1426CA" target="_self" alt="1426C A">
+  <area id="brighton1433AA" shape="rect" coords="239,312,418,354" href="#1433AA" target="_self" alt="1433A A">
+  <area id="brighton1425AA" shape="rect" coords="238,182,417,226" href="#1425AA" target="_self" alt="1425A A">
+  <area id="brighton1431CA" shape="rect" coords="238,268,418,312" href="#1431CA" target="_self" alt="1431C A">
+  <area id="brighton1418CA" shape="rect" coords="237,139,417,181" href="#1418CA" target="_self" alt="1418C A">
+  <area id="brighton1431CD" shape="rect" coords="416,269,746,311" href="#1431CD" target="_self" alt="1431C D">
+  <area id="brighton1426AD" shape="rect" coords="418,224,746,268" href="#1426AD" target="_self" alt="1426A D">
+  <area id="brighton1433AD" shape="rect" coords="417,311,745,353" href="#1433AD" target="_self" alt="1433A D">
+  <area id="brighton1425AD" shape="rect" coords="417,180,581,225" href="#1425AD" target="_self" alt="1425A D">
+  <area id="brighton1433CD" shape="rect" coords="418,354,745,398" href="#1433CD" target="_self" alt="1433C D">
+  <area id="brighton647AD" shape="rect" coords="582,398,909,440" href="#647AD" target="_self" alt="647A D">
+  <area id="brighton647AB" shape="rect" coords="418,399,581,440" href="#647AB" target="_self" alt="647A B">
+  <area id="brighton668AD" shape="rect" coords="416,442,747,486" href="#668AD" target="_self" alt="668A D">
+  <area id="brighton668CD" shape="rect" coords="418,485,747,528" href="#668CD" target="_self" alt="668C D">
+  <area id="brighton674AD" shape="rect" coords="416,528,747,570" href="#674AD" target="_self" alt="674A D">
+  <area id="brighton682AD" shape="rect" coords="418,572,746,616" href="#682AD" target="_self" alt="682A D">
+  <area id="brighton698AD" shape="rect" coords="417,615,745,658" href="#698AD" target="_self" alt="698A D">
+  <area id="brighton698CD" shape="rect" coords="417,657,745,700" href="#698CD" target="_self" alt="698C D">
+</map>
+
+
+</div>
+
+<!-- This section is for the locked Divs that contain red circles -->
+<div id="east171-locked"><img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east175-locked"><img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east169-locked"><img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east173-locked"><img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east177-locked"><img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east178-locked"><img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east170-locked"><img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east174-locked"><img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east152-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east154-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east156-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east151-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east153-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east155-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east157-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east159-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east158-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east161-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east163-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east165-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east176-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east160-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east162-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east164-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east172-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"></div>
+<div id="east166-locked"> <img src="Images/Circles/RedCircle.png" alt="You cannot take this room; your priority is too low." width="35" height="35"> </div>
+
+<!-- This section is for the occupied Divs that contain yellow circles -->
+<div id="east171-occupied"><img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east175-occupied"><img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east169-occupied"><img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east173-occupied"><img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east177-occupied"><img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east178-occupied"><img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east170-occupied"><img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east174-occupied"><img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east152-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east154-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east156-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east151-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east153-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east155-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east157-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east159-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east158-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east161-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east163-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east165-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east176-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east160-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east162-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east164-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east172-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"></div>
+<div id="east166-occupied"> <img src="Images/Circles/YellowCircle.png" alt="This room is occupied" width="35" height="35"> </div>
+<script src="drawRoomOccupants.js"></script>
+</body>
+</html>
