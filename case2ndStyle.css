@@ -1,7 +1,7 @@
 #case255-locked {
 	position: absolute;
-	left: 499px;
-	top: 213px;
+	left: 497px;
+	top: 280px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -9,8 +9,8 @@
 }
     #case254-locked {
 	position: absolute;
-	left: 563px;
-	top: 215px;
+	left: 561px;
+	top: 284px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -18,8 +18,8 @@
 }
     #case253-locked {
 	position: absolute;
-	left: 637px;
-	top: 215px;
+	left: 632px;
+	top: 288px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -28,16 +28,16 @@
     #case252-locked {
 	position: absolute;
 	left: 704px;
-	top: 217px;
+	top: 288px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #case251-locked {
 	position: absolute;
 	left: 772px;
-	top: 215px;
+	top: 285px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -45,8 +45,8 @@
 }
     #case250-locked {
 	position: absolute;
-	left: 833px;
-	top: 215px;
+	left: 832px;
+	top: 287px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -54,8 +54,8 @@
 }
     #case249-locked {
 	position: absolute;
-	left: 898px;
-	top: 216px;
+	left: 894px;
+	top: 290px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -64,7 +64,7 @@
     #case248-locked {
 	position: absolute;
 	left: 961px;
-	top: 215px;
+	top: 286px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -73,7 +73,7 @@
     #case247-locked {
 	position: absolute;
 	left: 1076px;
-	top: 316px;
+	top: 377px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -81,8 +81,8 @@
 }
     #case246-locked {
 	position: absolute;
-	left: 1076px;
-	top: 363px;
+	left: 1074px;
+	top: 426px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -90,8 +90,8 @@
 }
     #case245-locked {
 	position: absolute;
-	left: 1077px;
-	top: 413px;
+	left: 1076px;
+	top: 479px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -99,8 +99,8 @@
 }
     #case244-locked {
 	position: absolute;
-	left: 1077px;
-	top: 463px;
+	left: 1080px;
+	top: 537px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -109,7 +109,7 @@
     #case243-locked {
 	position: absolute;
 	left: 1091px;
-	top: 508px;
+	top: 578px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -117,8 +117,8 @@
 }
     #case242-locked {
 	position: absolute;
-	left: 1085px;
-	top: 568px;
+	left: 1087px;
+	top: 635px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -126,8 +126,8 @@
 }
     #case241-locked {
 	position: absolute;
-	left: 1089px;
-	top: 618px;
+	left: 1088px;
+	top: 691px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -135,8 +135,8 @@
 }
     #case201-locked {
 	position: absolute;
-	left: 294px;
-	top: 378px;
+	left: 289px;
+	top: 446px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -144,8 +144,8 @@
 }
     #case202-locked {
 	position: absolute;
-	left: 293px;
-	top: 433px;
+	left: 290px;
+	top: 500px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -153,8 +153,8 @@
 }
     #case203-locked {
 	position: absolute;
-	left: 297px;
-	top: 488px;
+	left: 292px;
+	top: 550px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -162,8 +162,8 @@
 }
     #case204-locked {
 	position: absolute;
-	left: 296px;
-	top: 538px;
+	left: 295px;
+	top: 607px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -171,8 +171,8 @@
 }
     #case205-locked {
 	position: absolute;
-	left: 303px;
-	top: 583px;
+	left: 299px;
+	top: 664px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -180,8 +180,8 @@
 }
     #case206-locked {
 	position: absolute;
-	left: 305px;
-	top: 637px;
+	left: 299px;
+	top: 713px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -189,8 +189,8 @@
 }
     #case240-locked {
 	position: absolute;
-	left: 1091px;
-	top: 669px;
+	left: 1088px;
+	top: 750px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -198,8 +198,8 @@
 }
     #case207-locked {
 	position: absolute;
-	left: 307px;
-	top: 683px;
+	left: 297px;
+	top: 759px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -207,8 +207,8 @@
 }
     #case208-locked {
 	position: absolute;
-	left: 309px;
-	top: 738px;
+	left: 294px;
+	top: 806px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -217,7 +217,7 @@
     #case225-locked {
 	position: absolute;
 	left: 880px;
-	top: 832px;
+	top: 913px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -225,8 +225,8 @@
 }
     #case224-locked {
 	position: absolute;
-	left: 811px;
-	top: 829px;
+	left: 812px;
+	top: 905px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -234,17 +234,17 @@
 }
     #case223-locked {
 	position: absolute;
-	left: 734px;
-	top: 824px;
+	left: 743px;
+	top: 905px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #case222-locked {
 	position: absolute;
-	left: 668px;
-	top: 824px;
+	left: 673px;
+	top: 907px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -252,8 +252,8 @@
 }
     #case221-locked {
 	position: absolute;
-	left: 601px;
-	top: 827px;
+	left: 604px;
+	top: 897px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -261,8 +261,8 @@
 }
     #case220-locked {
 	position: absolute;
-	left: 538px;
-	top: 830px;
+	left: 540px;
+	top: 897px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -270,8 +270,8 @@
 }
     #case219-locked {
 	position: absolute;
-	left: 479px;
-	top: 828px;
+	left: 473px;
+	top: 897px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -279,8 +279,8 @@
 }
     #case218-locked {
 	position: absolute;
-	left: 414px;
-	top: 826px;
+	left: 412px;
+	top: 898px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -288,8 +288,8 @@
 }
 #case255-occupied {
 	position: absolute;
-	left: 498px;
-	top: 212px;
+	left: 496px;
+	top: 278px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -298,7 +298,7 @@
     #case254-occupied {
 	position: absolute;
 	left: 562px;
-	top: 214px;
+	top: 285px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -306,8 +306,8 @@
 }
     #case253-occupied {
 	position: absolute;
-	left: 636px;
-	top: 215px;
+	left: 633px;
+	top: 287px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -316,16 +316,16 @@
     #case252-occupied {
 	position: absolute;
 	left: 704px;
-	top: 217px;
+	top: 288px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #case251-occupied {
 	position: absolute;
-	left: 769px;
-	top: 215px;
+	left: 770px;
+	top: 286px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -333,8 +333,8 @@
 }
     #case250-occupied {
 	position: absolute;
-	left: 834px;
-	top: 215px;
+	left: 833px;
+	top: 288px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -342,8 +342,8 @@
 }
     #case249-occupied {
 	position: absolute;
-	left: 896px;
-	top: 215px;
+	left: 894px;
+	top: 289px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -352,7 +352,7 @@
     #case248-occupied {
 	position: absolute;
 	left: 962px;
-	top: 217px;
+	top: 287px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -361,7 +361,7 @@
     #case247-occupied {
 	position: absolute;
 	left: 1076px;
-	top: 316px;
+	top: 379px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -369,8 +369,8 @@
 }
     #case246-occupied {
 	position: absolute;
-	left: 1076px;
-	top: 363px;
+	left: 1075px;
+	top: 426px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -378,8 +378,8 @@
 }
     #case245-occupied {
 	position: absolute;
-	left: 1077px;
-	top: 413px;
+	left: 1075px;
+	top: 479px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -387,8 +387,8 @@
 }
     #case244-occupied {
 	position: absolute;
-	left: 1077px;
-	top: 463px;
+	left: 1081px;
+	top: 537px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -396,8 +396,8 @@
 }
     #case243-occupied {
 	position: absolute;
-	left: 1091px;
-	top: 508px;
+	left: 1089px;
+	top: 580px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -405,8 +405,8 @@
 }
     #case242-occupied {
 	position: absolute;
-	left: 1085px;
-	top: 568px;
+	left: 1087px;
+	top: 634px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -415,7 +415,7 @@
     #case241-occupied {
 	position: absolute;
 	left: 1089px;
-	top: 618px;
+	top: 692px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -423,8 +423,8 @@
 }
     #case201-occupied {
 	position: absolute;
-	left: 293px;
-	top: 378px;
+	left: 287px;
+	top: 447px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -432,8 +432,8 @@
 }
     #case202-occupied {
 	position: absolute;
-	left: 292px;
-	top: 433px;
+	left: 290px;
+	top: 501px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -441,8 +441,8 @@
 }
     #case203-occupied {
 	position: absolute;
-	left: 296px;
-	top: 488px;
+	left: 291px;
+	top: 551px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -450,8 +450,8 @@
 }
     #case204-occupied {
 	position: absolute;
-	left: 295px;
-	top: 538px;
+	left: 296px;
+	top: 607px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -459,8 +459,8 @@
 }
     #case205-occupied {
 	position: absolute;
-	left: 302px;
-	top: 583px;
+	left: 299px;
+	top: 662px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -468,17 +468,17 @@
 }
     #case206-occupied {
 	position: absolute;
-	left: 306px;
-	top: 637px;
-	width: 44px;
-	height: 42px;
+	left: 298px;
+	top: 714px;
+	width: 40px;
+	height: 38px;
 	z-index: 1;
 	cursor: pointer
 }
     #case240-occupied {
 	position: absolute;
-	left: 1091px;
-	top: 669px;
+	left: 1089px;
+	top: 749px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -486,8 +486,8 @@
 }
     #case207-occupied {
 	position: absolute;
-	left: 306px;
-	top: 683px;
+	left: 296px;
+	top: 767px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -495,8 +495,8 @@
 }
     #case208-occupied {
 	position: absolute;
-	left: 308px;
-	top: 739px;
+	left: 293px;
+	top: 815px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -504,8 +504,8 @@
 }
     #case225-occupied {
 	position: absolute;
-	left: 880px;
-	top: 831px;
+	left: 879px;
+	top: 908px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -513,8 +513,8 @@
 }
     #case224-occupied {
 	position: absolute;
-	left: 810px;
-	top: 829px;
+	left: 812px;
+	top: 905px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -522,17 +522,17 @@
 }
     #case223-occupied {
 	position: absolute;
-	left: 734px;
-	top: 824px;
+	left: 741px;
+	top: 905px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
-    cursor: pointer
+	cursor: pointer
 }
     #case222-occupied {
 	position: absolute;
-	left: 669px;
-	top: 824px;
+	left: 670px;
+	top: 908px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -540,8 +540,8 @@
 }
     #case221-occupied {
 	position: absolute;
-	left: 601px;
-	top: 824px;
+	left: 602px;
+	top: 895px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -550,7 +550,7 @@
     #case220-occupied {
 	position: absolute;
 	left: 537px;
-	top: 829px;
+	top: 898px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -558,8 +558,8 @@
 }
     #case219-occupied {
 	position: absolute;
-	left: 476px;
-	top: 828px;
+	left: 474px;
+	top: 896px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -567,8 +567,8 @@
 }
     #case218-occupied {
 	position: absolute;
-	left: 413px;
-	top: 825px;
+	left: 410px;
+	top: 899px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -577,8 +577,8 @@
 
 #caseQ2B-occupied {
 	position: absolute;
-	left: 498px;
-	top: 212px;
+	left: 921px;
+	top: 560px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -587,8 +587,8 @@
 
 #caseQ2C-occupied {
 	position: absolute;
-	left: 498px;
-	top: 212px;
+	left: 637px;
+	top: 769px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -597,8 +597,8 @@
 
 #caseQ2D-occupied {
 	position: absolute;
-	left: 498px;
-	top: 212px;
+	left: 449px;
+	top: 641px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -606,8 +606,8 @@
 }
 #caseQ2B-locked {
 	position: absolute;
-	left: 498px;
-	top: 212px;
+	left: 921px;
+	top: 562px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -616,8 +616,8 @@
 
 #caseQ2C-locked {
 	position: absolute;
-	left: 498px;
-	top: 212px;
+	left: 638px;
+	top: 767px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
@@ -626,8 +626,8 @@
 
 #caseQ2D-locked {
 	position: absolute;
-	left: 498px;
-	top: 212px;
+	left: 450px;
+	top: 642px;
 	width: 44px;
 	height: 42px;
 	z-index: 1;
