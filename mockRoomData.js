@@ -607,3 +607,21 @@ function getUnoccupiedRoomsByLocationAndType(location, type) {
     var locRegEx = new RegExp(generalTypeString, 'i');
     return roomsDB({'id': {regex: locRegEx}, 'numOccupants': numOccupants, 'occupied': false}).get();
 }
+
+// Returns an array of all rooms of a type in a location
+function getAllRoomsByLocationAndType(location, type) {
+    if (type == 'all') {
+        type = '';
+    }
+    generalTypeString = type+'*';
+    var numOccupants = 1;
+    if (type == 'double') {
+        numOccupants = 2;
+    } else if (type == 'triple') {
+        numOccupants = 3;
+    } else if (type == 'quad') {
+        numOccupants = 4;
+    }
+    var locRegEx = new RegExp(generalTypeString, 'i');
+    return roomsDB({'id': {regex: locRegEx}, 'numOccupants': numOccupants}).get();
+}
