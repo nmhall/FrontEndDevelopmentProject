@@ -560,7 +560,6 @@ function getAllSingles() {
     return roomsDB({'numOccupants': 1}).get();
 }
 
-
 // Returns an array of all doubles
 function getAllDoubles() {
     return roomsDB({'numOccupants': 2}).get();
@@ -586,5 +585,5 @@ function getAllUnoccupiedRooms() {
 function getRoomsInDorm(dorm) {
     var generalDormString = dorm+'*';
     var dormRegExp = new RegExp(generalDormString, 'i');
-    return roomsDB().filter({'id': {regex: dormRegExp}});
+    return roomsDB({'id': {regex: dormRegExp}}).get();
 }
