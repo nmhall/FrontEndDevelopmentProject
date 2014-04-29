@@ -52,4 +52,5 @@ window.onload = function()
 		document.getElementById('openQuads').innerHTML = "";
 	}
 
+	document.getElementById("FullStatsButton").addEventListener("click", function(){document.location = "FullStats.html";});
 }
