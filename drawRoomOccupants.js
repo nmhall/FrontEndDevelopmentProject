@@ -1,8 +1,8 @@
-var roomsDB = TAFFY()
-
-// Hard-code some placements into the database here
-
 var rooms = document.getElementsByTagName('area');
+
+// We will demo under the assumption that Junior number 20 is logged in.
+var studentPriorityLevel = 'Junior';
+var studentPriorityNumber = 20;
 
 for(var i = 0; i < rooms.length; i++) {
     var id = rooms[i].id;
@@ -20,59 +20,37 @@ for(var i = 0; i < rooms.length; i++) {
     }
     lockedDiv.style.zIndex = '-1';
     occDiv.style.zIndex = '-1';
+    roomInfo = roomsDB({'id': id}).first();
+    if (roomInfo.occupied) {
+        if (isHigherPriority(roomInfo.priorityLevel, studentPriorityLevel)) {
+            lockedDiv.style.zIndex = '1';
+        } else if (roomInfo.priorityLevel == studentPriorityLevel
+                   && roomInfo.priorityNumber > studentPriorityNumber) {
+            lockedDiv.style.zIndex = '1';
+        } else {
+            occDiv.style.zIndex = '1';
+        }
+    }
 }
 
 function putStudentInRoom(id) {
-    var toReturn = function(){
-        var fullName = document.getElementById('fullName').value;
-        if (fullName == '') {
-            alert('You must enter a name to add to the room');
-            return;
-        }
-        var prioritySelect = document.getElementById('prioritySelect');
-        var priorityLevel = prioritySelect.options[prioritySelect.selectedIndex].value;
-        if (priorityLevel == 'None Selected') {
-            alert('You must choose a year in order to add yourself to a room');
-            return;
-        }
-        var priorityNumberString = document.getElementById('priorityNumber').value;
-        var priorityNumber = -1;
-        if(priorityNumberString != '' && priorityLevel != 'Admin') {
-            priorityNumber = parseInt(priorityNumberString);
-        }
-        if (priorityLevel != 'Admin' && priorityNumber == -1) {
-            alert('You must enter a priority number for the room');
-            return;
-        }
-        var currentEntry = roomsDB({roomId: id});
-        if (currentEntry.count() == 0) {
-            alert('No current occupant, adding to room ' + id);
-            roomsDB.insert({roomId: id, fullName: fullName, priorityLevel: priorityLevel, priorityNumber: priorityNumber});
-            alert('You have succesfully added ' + fullName + ' to the room with priority ' + priorityLevel + ' ' + priorityNumber);
-            return;
-        }
-        else {
-            occupantInfo = currentEntry.first();
-            occPriorityLevel = occupantInfo.priorityLevel;
-            alert('Occupant Priority Level is ' + occPriorityLevel);
-            occPriorityNumber = occupantInfo.priorityNumber;
-            alert('Occupant Priority Number is ' + occPriorityNumber);
-            if (isHigherPriorityLevel(occPriorityLevel, priorityLevel)) {
-                alert('This room is currently taken with a higher priority: ' + occPriorityLevel + ' ' + occPriorityNumber);
-                return;
+    return function(){
+        roomInfo = roomsDB({'id': id}).first();
+        if (roomInfo.occupied) {
+            if (isHigherPriority(roomInfo.priorityLevel, studentPriorityLevel)) {
+                alert('This room is taken with a higher priority: ' + roomInfo.priorityLevel
+                       + ' ' + roomInfo.priorityNumber);
+            } else if (roomInfo.priorityLevel == studentPriorityLevel
+                       && roomInfo.priorityNumber > studentPriorityNumber) {
+                alert('This room is taken with a better number: ' + roomInfo.priorityLevel
+                       + ' ' + roomInfo.priorityNumber);
+            } else {
+                alert('Congratulations! You have taken this room.');
             }
-            else if(occPriorityLevel == priorityLevel && occPriorityNumber < priorityNumber) {
-                alert('This room is currently taken with a higher priority: ' + occPriorityLevel + ' ' + occPriorityNumber);
-                return;
-            }
-            else {
-                roomsDB({roomId: id}).update({roomId: id, fullName: fullName, priorityLevel: priorityLevel, priorityNumber: priorityNumber});
-                alert('You have succesfully added ' + fullName + ' to the room with priority ' + priorityLevel + ' ' + priorityNumber);
-                return;
-            }
+        } else {
+            alert('Congratulations! You have taken this room.');
         }
     }
-    return toReturn;
 }
 
 // Returns true if priority is of a higher priority level than compareTo
@@ -95,29 +73,3 @@ function isHigherPriorityLevel(priority, compareTo) {
     return false;
 }
 
-function displayRoomStatus() {
-    var roomId = this.id;
-    if (occupancies[roomId] == 'Locked') {
-        alert('This room is currently taken by a number with higher priority.');
-    }
-    else if (occupancies[roomId] == 'Occupied') {
-        alert('This room is currently taken, but by a number with lower priority. You may take it if you wish.');
-    }
-    else {
-        alert('This room is currently empty. You may take it if you wish.');
-    }
-}
-
-function displayOccupiedRoomStatus() {
-    var id = this.id;
-    var roomId = id.split('-')[0];
-    if (occupancies[roomId] ==  'Locked') {
-        alert('This room is currently taken by a number with higher priority.');
-    }
-    else if (occupancies[roomId] == 'Occupied') {
-        alert('This room is currently taken, but by a number with lower priority. You may take it if you wish.');
-    }
-    else {
-        alert('This room is currently empty. You may take it if you wish.');
-    }
-}
