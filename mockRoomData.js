@@ -592,8 +592,8 @@ function getRoomsInDorm(dorm) {
 // Takes as input a location string which is either a dorm name or "all"
 // and a type string which is either "single", "double", "triple", or "quad"
 function getUnoccupiedRoomsByLocationAndType(location, type) {
-    if (type == 'all') {
-        type = '';
+    if (location == 'all') {
+        location = '';
     }
     generalTypeString = location+'*';
     var numOccupants = 1;
@@ -610,9 +610,6 @@ function getUnoccupiedRoomsByLocationAndType(location, type) {
 
 // Returns all empty rooms of a certian type
 function getUnoccupiedRoomsByType(type) {
-    if (type == 'all') {
-        type = '';
-    }
     var numOccupants = 1;
     if (type == 'double') {
         numOccupants = 2;
@@ -627,8 +624,8 @@ function getUnoccupiedRoomsByType(type) {
 
 // Returns an array of all rooms of a type in a location
 function getAllRoomsByLocationAndType(location, type) {
-    if (type == 'all') {
-        type = '';
+    if (location == 'all') {
+        location = '';
     }
     generalTypeString = location+'*';
     var numOccupants = 1;
@@ -642,3 +639,6 @@ function getAllRoomsByLocationAndType(location, type) {
     var locRegEx = new RegExp(generalTypeString, 'i');
     return roomsDB({'id': {regex: locRegEx}, 'numOccupants': numOccupants}).get();
 }
+
+// Test
+alert(roomsDB({'numOccupants': 4}).get().length);
