@@ -574,3 +574,42 @@
 	z-index: 1;
 	cursor: pointer
 }
+
+#caseQ1B-locked {
+	position: absolute;
+	left: 701px;
+	top: 188px;
+	width: 44px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
+}
+
+#caseQ1D-locked {
+	position: absolute;
+	left: 701px;
+	top: 188px;
+	width: 44px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
+}
+#caseQ1B-occupied {
+	position: absolute;
+	left: 701px;
+	top: 188px;
+	width: 44px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
+}
+
+#caseQ1D-occupied {
+	position: absolute;
+	left: 701px;
+	top: 188px;
+	width: 44px;
+	height: 42px;
+	z-index: 1;
+	cursor: pointer
+}
