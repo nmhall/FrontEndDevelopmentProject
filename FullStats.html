@@ -3,25 +3,123 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link rel="stylesheet" type="text/css" href="frontPageStyle.css">
+    <link rel="stylesheet" type="text/css" href="fullStats.css">    
     <meta charset="utf-8" />
     <title></title>
 </head>
 <body>
-
+    <script src="taffydb-master/taffy.js"></script>
+    <script src="mockRoomData.js"></script>
+    <script src="fullStats.js"></script>
     <div class="sidebar">
     
-    	<div class="userName">Nathan Hall</div>
-    	<div class="priorityNumber">45</div>
-    	<div class="sidebarStats">
-    		<button name="backButton" type="button" id="backButton">Back</button>
-    	</div>
+      <div class="sidebarSection user">
+    <div class="infoHeader">User Info</div>
+    <div class="userName">Nathan Hall</div>
+        <div class="priorityNumber">Junior 45</div>
+      </div> <!-- user info section -->
+      <button name="backButton" type="button" id="backButton">Back To Campus Map</button>
         </div>
         <div id="header">Full Room Draw Statistics</div>
         <div class="stats">
         <table>
-        	<td class="Atwood">Atwood:
-            	<>Singles Open: 4 of 25</tt>
+            <tr>
+        	<td class="DormInfo" id="atwood"><span class="statSection">Atwood:</span><br>
+            	<tt>Open Singles: <span id="atwoodOpenSingles">0</span> of <span id="atwoodSingles">0</span></tt><br>
+            	<tt>Open Doubles: <span id="atwoodOpenDoubles">0</span> of <span id="atwoodDoubles">0</span></tt><br>
+            	<tt>Open Triples: <span id="atwoodOpenTriples">0</span> of <span id="atwoodTriples">0</span></tt><br>
+                <tt>Open Quads: <span id="atwoodOpenQuads">0</span> of <span id="atwoodQuads">0</span></tt><br>
+		      <br>
+
+		    </td>
+
+            <td class="DormInfo" id="brighton"><span class="statSection">Brighton:</span><br>
+                <tt>Open Singles: <span id="brightonOpenSingles">0</span> of <span id="brightonSingles">0</span></tt><br>
+                <tt>Open Doubles: <span id="brightonOpenDoubles">0</span> of <span id="brightonDoubles">0</span></tt><br>
+                <tt>Open Triples: <span id="brightonOpenTriples">0</span> of <span id="brightonTriples">0</span></tt><br>
+                <tt>Open Quads: <span id="brightonOpenQuads">0</span> of <span id="brightonQuads">0</span></tt><br>
+              <br>
+
             </td>
+        	
+
+            <td class="DormInfo" id="case"><span class="statSection">Case:</span><br>
+                <tt>Open Singles: <span id="caseOpenSingles">0</span> of <span id="caseSingles">0</span></tt><br>
+                <tt>Open Doubles: <span id="caseOpenDoubles">0</span> of <span id="caseDoubles">0</span></tt><br>
+                <tt>Open Triples: <span id="caseOpenTriples">0</span> of <span id="caseTriples">0</span></tt><br>
+                <tt>Open Quads: <span id="caseOpenQuads">0</span> of <span id="caseQuads">0</span></tt><br>
+              <br>
+
+            </td>
+        </tr><tr>
+
+            <td class="DormInfo" id="east"><span class="statSection">East:</span><br>
+                <tt>Open Singles: <span id="eastOpenSingles">0</span> of <span id="eastSingles">0</span></tt><br>
+                <tt>Open Doubles: <span id="eastOpenDoubles">0</span> of <span id="eastDoubles">0</span></tt><br>
+                <tt>Open Triples: <span id="eastOpenTriples">0</span> of <span id="eastTriples">0</span></tt><br>
+                <tt>Open Quads: <span id="eastOpenQuads">0</span> of <span id="eastQuads">0</span></tt><br>
+              <br>
+
+            </td>
+
+            <td class="DormInfo" id="linde"><span class="statSection">Linde:</span><br>
+                <tt>Open Singles: <span id="lindeOpenSingles">0</span> of <span id="lindeSingles">0</span></tt><br>
+                <tt>Open Doubles: <span id="lindeOpenDoubles">0</span> of <span id="lindeDoubles">0</span></tt><br>
+                <tt>Open Triples: <span id="lindeOpenTriples">0</span> of <span id="lindeTriples">0</span></tt><br>
+                <tt>Open Quads: <span id="lindeOpenQuads">0</span> of <span id="lindeQuads">0</span></tt><br>
+              <br>
+
+            </td>
+
+                    <td class="DormInfo" id="north"><span class="statSection">North:</span><br>
+                <tt>Open Singles: <span id="northOpenSingles">0</span> of <span id="northSingles">0</span></tt><br>
+                <tt>Open Doubles: <span id="northOpenDoubles">0</span> of <span id="northDoubles">0</span></tt><br>
+                <tt>Open Triples: <span id="northOpenTriples">0</span> of <span id="northTriples">0</span></tt><br>
+                <tt>Open Quads: <span id="northOpenQuads">0</span> of <span id="northQuads">0</span></tt><br>
+              <br>
+                
+            </td>
+</tr><tr>
+                        <td class="DormInfo" id="sontag"><span class="statSection">Sontag:</span><br>
+                <tt>Open Singles: <span id="sontagOpenSingles">0</span> of <span id="sontagSingles">0</span></tt><br>
+                <tt>Open Doubles: <span id="sontagOpenDoubles">0</span> of <span id="sontagDoubles">0</span></tt><br>
+                <tt>Open Triples: <span id="sontagOpenTriples">0</span> of <span id="sontagTriples">0</span></tt><br>
+                <tt>Open Quads: <span id="sontagOpenQuads">0</span> of <span id="sontagQuads">0</span></tt><br>
+              <br>
+
+            </td>
+
+                        <td class="DormInfo" id="south"><span class="statSection">South:</span><br>
+                <tt>Open Singles: <span id="southOpenSingles">0</span> of <span id="southSingles">0</span></tt><br>
+                <tt>Open Doubles: <span id="southOpenDoubles">0</span> of <span id="southDoubles">0</span></tt><br>
+                <tt>Open Triples: <span id="southOpenTriples">0</span> of <span id="southTriples">0</span></tt><br>
+                <tt>Open Quads: <span id="southOpenQuads">0</span> of <span id="southQuads">0</span></tt><br>
+              <br>
+
+            </td>
+
+                
+
+            <td class="DormInfo" id="west"><span class="statSection">West:</span><br>
+                <tt>Open Singles: <span id="westOpenSingles">0</span> of <span id="westSingles">0</span></tt><br>
+                <tt>Open Doubles: <span id="westOpenDoubles">0</span> of <span id="westDoubles">0</span></tt><br>
+                <tt>Open Triples: <span id="westOpenTriples">0</span> of <span id="westTriples">0</span></tt><br>
+                <tt>Open Quads: <span id="westOpenQuads">0</span> of <span id="westQuads">0</span></tt><br>
+              <br>
+            </td>
+        </tr>
+                <td class="DormInfo" id="all"><span class="statSection">Full Campus:</span><br>
+                <tt>Open Singles: <span id="allOpenSingles">0</span> of <span id="allSingles">0</span></tt><br>
+                <tt>Open Doubles: <span id="allOpenDoubles">0</span> of <span id="allDoubles">0</span></tt><br>
+                <tt>Open Triples: <span id="allOpenTriples">0</span> of <span id="allTriples">0</span></tt><br>
+                <tt>Open Quads: <span id="allOpenQuads">0</span> of <span id="allQuads">0</span></tt><br>
+              <br>
+
+
+            </td>
+        <tr>
+
+
         </table>
         </div>
 
