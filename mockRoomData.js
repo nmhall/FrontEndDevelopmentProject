@@ -570,6 +570,10 @@ roomsDB({'id': 'north221'}).update({'occupied': true, 'priorityLevel': 'Admin', 
 roomsDB({'id': 'north225'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
 roomsDB({'id': 'north214'}).update({'occupied': true, 'priorityLevel': 'Sophomore', 'priorityNumber': 2, 'occupant1': 'Sophomore2', 'occupant2': 'Sophomore2Pull'});
 roomsDB({'id': 'north216'}).update({'occupied': true, 'priorityLevel': 'Sophomore', 'priorityNumber': 17, 'occupant1': 'Sophomore17', 'occupant2': 'Sophomore17Pull'});
+roomsDB({'id': 'north224'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 45, 'occupant1': 'Crystal Hsu'});
+roomsDB({'id': 'north220'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 45, 'occupant1': 'Samantha Stilson'});
+roomsDB({'id': 'north210'}).update({'occupied': true, 'priorityLevel': 'Junior', 'priorityNumber': 61, 'ocupant1': 'Junior61', 'occupant2': 'Junior61Pull'});
+roomsDB({'id': 'north212'}).update({'occupied': true, 'priorityLevel': 'Junior', 'priorityNumber': 113, 'occupant1': 'Junior113', 'occupant2': 'Junior113Pull'});
 
 // Some useful helper functions
 // Each element in the returned array will be an object matching a row in the database
