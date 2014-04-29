@@ -21,7 +21,7 @@ for(var i = 0; i < rooms.length; i++) {
         if (isHigherPriorityLevel(roomInfo.priorityLevel, studentPriorityLevel)) {
             lockedDiv.style.zIndex = '1';
         } else if (roomInfo.priorityLevel == studentPriorityLevel
-                   && roomInfo.priorityNumber > studentPriorityNumber) {
+                   && roomInfo.priorityNumber < studentPriorityNumber) {
             lockedDiv.style.zIndex = '1';
         } else {
             occDiv.style.zIndex = '1';
@@ -38,7 +38,7 @@ function putStudentInRoom(id) {
                        + ' ' + roomInfo.priorityNumber + '. It is currently occupied by '
                        + roomInfo.occupant1 + '.');
             } else if (roomInfo.priorityLevel == studentPriorityLevel
-                       && roomInfo.priorityNumber > studentPriorityNumber) {
+                       && roomInfo.priorityNumber < studentPriorityNumber) {
                 alert('This room is taken with a better number: ' + roomInfo.priorityLevel
                        + ' ' + roomInfo.priorityNumber);
             } else {

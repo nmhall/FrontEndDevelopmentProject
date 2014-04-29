@@ -549,9 +549,27 @@ roomsDB({'id': 'atwood327'}).update({'occupied': true, 'priorityLevel': 'Admin',
 // Fill some of the random suites in Atwood
 roomsDB({'id': 'atwood102'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Proctor'});
 roomsDB({'id': 'atwood104'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Proctor Pull'});
-roomsDB({'id': 'atwood108'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 50, 'occupant1': 'Senior 50'});
-roomsDB({'id': 'atwood110'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 50, 'occupant1': 'Senior 50s Pull'});
+roomsDB({'id': 'atwood108'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 50, 'occupant1': 'Senior50'});
+roomsDB({'id': 'atwood110'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 50, 'occupant1': 'Senior50Pull'});
+roomsDB({'id': 'atwood203'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 13, 'occupant1': 'Senior13'});
+roomsDB({'id': 'atwood205'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 13, 'occupant1': 'Senior13Pull'});
+roomsDB({'id': 'atwood209'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 107, 'occupant1': 'Senior107'});
+roomsDB({'id': 'atwood211'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 107, 'occupant1': 'Senior107Pull'});
+roomsDB({'id': 'atwood207'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 107, 'occupant1': 'Sophomore 1', 'occupant2': 'Sophomore 2', 'occupant3': 'Sophomore 3'});
+roomsDB({'id': 'atwood313'}).update({'occupied': true, 'priorityLevel': 'Junior', 'priorityNumber': 34, 'occupant1': 'Junior34', 'occupant2': 'Junior34Pull'});
+roomsDB({'id': 'atwood315'}).update({'occupied': true, 'priorityLevel': 'Junior', 'priorityNumber': 17, 'occupant1': 'Junior17', 'occupant2': 'Junior17Pull'});
+roomsDB({'id': 'atwood302'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Proctor'});
+roomsDB({'id': 'atwood304'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Proctor Pull'});
+roomsDB({'id': 'atwood308'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 11, 'occupant1': 'Senior11'});
+roomsDB({'id': 'atwood310'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 11, 'occupant1': 'Senior11Pull'});
 
+// Fill some of the random rooms in North
+roomsDB({'id': 'north222'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 5, 'occupant1': 'Chris Brown'});
+roomsDB({'id': 'north226'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 5, 'occupant1': 'Ryland Miller'});
+roomsDB({'id': 'north221'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'north225'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'north214'}).update({'occupied': true, 'priorityLevel': 'Sophomore', 'priorityNumber': 2, 'occupant1': 'Sophomore2', 'occupant2': 'Sophomore2Pull'});
+roomsDB({'id': 'north216'}).update({'occupied': true, 'priorityLevel': 'Sophomore', 'priorityNumber': 17, 'occupant1': 'Sophomore17', 'occupant2': 'Sophomore17Pull'});
 
 // Some useful helper functions
 // Each element in the returned array will be an object matching a row in the database
