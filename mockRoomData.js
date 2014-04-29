@@ -640,5 +640,4 @@ function getAllRoomsByLocationAndType(location, type) {
     return roomsDB({'id': {regex: locRegEx}, 'numOccupants': numOccupants}).get();
 }
 
-// Test
-alert(roomsDB({'numOccupants': 4}).get().length);
+
