@@ -523,3 +523,39 @@ roomsDB.insert({'id': 'atwood307', 'numOccupants': 3, 'occupied': false, 'occupa
 roomsDB.insert({'id': 'atwood320', 'numOccupants': 3, 'occupied': false, 'occupant1': '', 'occupant2': '', 'occupant3': '', 'occupant4': '', 'seniorRound': null, 'priorityLevel': '', 'priorityNumber': null});
 roomsDB.insert({'id': 'atwood321', 'numOccupants': 3, 'occupied': false, 'occupant1': '', 'occupant2': '', 'occupant3': '', 'occupant4': '', 'seniorRound': null, 'priorityLevel': '', 'priorityNumber': null});
 
+
+// Some useful helper functions
+// Each element in the returned array will be an object matching a row in the database
+
+// Returns an array of all singles
+var getAllSingles = function() {
+    return roomsDB({'numOccupants': 1}).get();
+}
+
+// Returns an array of all doubles
+var getAllDoubles = function() {
+    return roomsDB({'numOccupants': 2}).get();
+}
+
+// Returns an array of all triples
+var getAllTriples = function() {
+    return roomsDB({'numOccupants': 3}).get();
+}
+
+// Returns an array of all quads
+var getAllQuads = function() {
+    return roomsDB({'numOccupants': 4}).get();
+}
+
+// Returns an array of all empty rooms
+var getAllUnoccupiedRooms = function() {
+    return roomsDB({'occupied': false}).get();
+
+}
+
+// Returns all the rooms in a specific dorm
+var getRoomsInDorm = function(dorm) {
+    var generalDormString = dorm+'*';
+    var dormRegExp = new RegExp(generalDormString, 'i');
+    return roomsDB({'id': {regex: dormRegExp}}).get();
+}
