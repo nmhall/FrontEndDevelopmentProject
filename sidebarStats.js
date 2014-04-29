@@ -64,7 +64,7 @@ window.onload = function()
 		if (quads.length != 0)
 		{
 			document.getElementById('quadsNum').innerHTML = quads.length
-			document.getElementById('openQuadsNum').innerHTML = getUnoccupiedRoomsByLocationAndType(currentDormLoc,"quad").length;
+			document.getElementById('openQuadsNum').innerHTML = getUnoccupiedRoomsByLocationAndType(currentDormLoc, "quad").length;
 		}
 		else
 		{
