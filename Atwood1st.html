@@ -4,6 +4,7 @@
 <head>
     <script src="taffydb-master/taffy.js"></script>
     <script src="mockRoomData.js"></script>
+    <script src="sidebarStats.js"></script>
     <link rel="stylesheet" type="text/css" href="frontPageStyle.css">
     <link rel="stylesheet" type="text/css" href="atwood1stStyle.css">
     <style type="text/css">
@@ -23,10 +24,10 @@
       </div> <!-- user info section -->
       <div class="sidebarSection stats">
         <div class="infoHeader">Campus Info</div>
-        <div class="sidebarStats">Open Singles: 15 of 40</div>
-        <div class="sidebarStats">Open Doubles: 50 of 180</div>
-        <div class="sidebarStats">Open Triples: 3 of 14</div>
-        <div class="sidebarStats">Open Quads: 1 of 4</div>
+        <div id="openSingles" class="sidebarStats">Singles: <span id="openSinglesNum"></span> of <span id="singlesNum"></span> avaliable</div>
+        <div id="openDoubles"class="sidebarStats">Doubles: <span id="openDoublesNum"></span> of <span id="doublesNum"></span> avaliable</div>
+        <div id="openTriples" class="sidebarStats">Triples: <span id="openTriplesNum"></span> of <span id="triplesNum"></span> avaliable</div>
+        <div id="openQuads" class="sidebarStats">Quads: <span id="openQuadsNum"></span> of <span id="QuadsNum"></span> avaliable</div>
         <div class="sidebarStats">
           <button name="FullStatsButton" type="button" id="FullStatsButton">See Full Statistics</button>
         </div>
@@ -38,9 +39,9 @@
 <div id="floorTabs">
   <ul id="tabnav">
     <li><a href="FrontPageAllDorms.html">Back to Campus Map</a></li>
-    <li class="currentTab"><a href="Atwood1st.html">1st Floor</a></li>
-    <li><a href="Atwood2nd.html">2nd Floor</a></li>
-    <li><a href="Atwood3rd.html">3rd Floor</a></li>
+    <li class="currentTab"><a href="atwood1st.html">1st Floor</a></li>
+    <li><a href="atwood2nd.html">2nd Floor</a></li>
+    <li><a href="atwood3rd.html">3rd Floor</a></li>
   </ul>
 </div>
 
@@ -50,7 +51,7 @@
     <area id="atwood109" shape="rect" coords="205,32,276,119" href="#109" target="_self" alt="109">
     <area id="atwood111" shape="rect" coords="276,31,357,119" href="#111" target="_self" alt="111">
     <area id="atwood113" shape="rect" coords="358,32,429,149" href="#113" target="_self" alt="113">
-    <area id="atwood115"shape="rect" coords="587,32,656,150" href="#115" target="_self" alt="115">
+    <area id="atwood115" shape="rect" coords="587,32,656,150" href="#115" target="_self" alt="115">
     <area id="atwood117" shape="rect" coords="657,33,734,119" href="#117" target="_self" alt="117">
     <area id="atwood119" shape="rect" coords="738,32,811,119" href="#119" target="_top" alt="119">
     <area id="atwood105" shape="rect" coords="52,153,164,208" href="#105" target="_self" alt="105">
@@ -75,6 +76,7 @@
     <area id="atwood121" shape="poly" coords="881,35,881,93,956,94,958,150,855,152,857,120,815,118,812,34" href="#121" target="_self" alt="121">
     <area id="atwood120" shape="poly" coords="885,735,884,679,958,680,958,622,850,622,853,652,810,653,815,735" href="#120" target="_self" alt="120">
     <area id="atwood106" shape="poly" coords="55,622,55,678,125,681,125,741,199,741,199,655,163,652,163,622" href="#106" target="_self" alt="106">
+
   </map>
 </div>
 
