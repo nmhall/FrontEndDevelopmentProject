@@ -22,7 +22,7 @@ for(var i = 0; i < rooms.length; i++) {
     occDiv.style.zIndex = '-1';
     roomInfo = roomsDB({'id': id}).first();
     if (roomInfo.occupied) {
-        if (isHigherPriority(roomInfo.priorityLevel, studentPriorityLevel)) {
+        if (isHigherPriorityLevel(roomInfo.priorityLevel, studentPriorityLevel)) {
             lockedDiv.style.zIndex = '1';
         } else if (roomInfo.priorityLevel == studentPriorityLevel
                    && roomInfo.priorityNumber > studentPriorityNumber) {
@@ -37,9 +37,10 @@ function putStudentInRoom(id) {
     return function(){
         roomInfo = roomsDB({'id': id}).first();
         if (roomInfo.occupied) {
-            if (isHigherPriority(roomInfo.priorityLevel, studentPriorityLevel)) {
+            if (isHigherPriorityLevel(roomInfo.priorityLevel, studentPriorityLevel)) {
                 alert('This room is taken with a higher priority: ' + roomInfo.priorityLevel
-                       + ' ' + roomInfo.priorityNumber);
+                       + ' ' + roomInfo.priorityNumber + '. It is currently occupied by '
+                       + roomInfo.occupant1 + '.');
             } else if (roomInfo.priorityLevel == studentPriorityLevel
                        && roomInfo.priorityNumber > studentPriorityNumber) {
                 alert('This room is taken with a better number: ' + roomInfo.priorityLevel

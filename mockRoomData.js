@@ -523,38 +523,66 @@ roomsDB.insert({'id': 'atwood307', 'numOccupants': 3, 'occupied': false, 'occupa
 roomsDB.insert({'id': 'atwood320', 'numOccupants': 3, 'occupied': false, 'occupant1': '', 'occupant2': '', 'occupant3': '', 'occupant4': '', 'seniorRound': null, 'priorityLevel': '', 'priorityNumber': null});
 roomsDB.insert({'id': 'atwood321', 'numOccupants': 3, 'occupied': false, 'occupant1': '', 'occupant2': '', 'occupant3': '', 'occupant4': '', 'seniorRound': null, 'priorityLevel': '', 'priorityNumber': null});
 
+// Now update some of the rooms to be occupied. We do this after the definition to make it much easier to
+// change which rooms are filled.
+
+// Fill all the Atwood Suites Doubleswith freshmen, since that's what really happens.
+roomsDB({'id': 'atwood100'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'atwood101'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'atwood126'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'atwood127'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'atwood200'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'atwood201'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'atwood226'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'atwood227'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'atwood300'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'atwood301'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'atwood326'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+roomsDB({'id': 'atwood327'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Freshman', 'occupant2': 'Freshman'});
+
+// Fill some of the random suites in Atwood
+roomsDB({'id': 'atwood102'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Proctor'});
+roomsDB({'id': 'atwood104'}).update({'occupied': true, 'priorityLevel': 'Admin', 'priorityNumber': 0, 'occupant1': 'Proctor Pull'});
+roomsDB({'id': 'atwood108'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 50, 'occupant1': 'Senior 50'});
+roomsDB({'id': 'atwood110'}).update({'occupied': true, 'priorityLevel': 'Senior', 'priorityNumber': 50, 'occupant1': 'Senior 50s Pull'});
+
 
 // Some useful helper functions
 // Each element in the returned array will be an object matching a row in the database
 
+// Returns an array of all rooms
+function getAllRooms() {
+    return roomsDB().get();
+}
+
 // Returns an array of all singles
-var getAllSingles = function() {
+function getAllSingles() {
     return roomsDB({'numOccupants': 1}).get();
 }
 
 // Returns an array of all doubles
-var getAllDoubles = function() {
+function getAllDoubles() {
     return roomsDB({'numOccupants': 2}).get();
 }
 
 // Returns an array of all triples
-var getAllTriples = function() {
+function getAllTriples() {
     return roomsDB({'numOccupants': 3}).get();
 }
 
 // Returns an array of all quads
-var getAllQuads = function() {
+function getAllQuads() {
     return roomsDB({'numOccupants': 4}).get();
 }
 
 // Returns an array of all empty rooms
-var getAllUnoccupiedRooms = function() {
+function getAllUnoccupiedRooms() {
     return roomsDB({'occupied': false}).get();
 
 }
 
 // Returns all the rooms in a specific dorm
-var getRoomsInDorm = function(dorm) {
+function getRoomsInDorm(dorm) {
     var generalDormString = dorm+'*';
     var dormRegExp = new RegExp(generalDormString, 'i');
     return roomsDB({'id': {regex: dormRegExp}}).get();
