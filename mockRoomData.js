@@ -1,5 +1,11 @@
 var roomsDB = TAFFY();
 
+// Simulate a logged-in user with a name and priority number.
+var studentPriorityLevel = 'Junior';
+var studentPriorityNumber = 20;
+var userName = 'Jacob Rosenbloom';
+
+
 // ~500 lines of hard-coded room information incoming. Hacky but effective.
 
 // North 1st Floor

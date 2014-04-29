@@ -1,9 +1,5 @@
 var rooms = document.getElementsByTagName('area');
 
-// We will demo under the assumption that Junior number 20 is logged in.
-var studentPriorityLevel = 'Junior';
-var studentPriorityNumber = 20;
-
 for(var i = 0; i < rooms.length; i++) {
     var id = rooms[i].id;
     rooms[i].addEventListener('click', putStudentInRoom(id), false);

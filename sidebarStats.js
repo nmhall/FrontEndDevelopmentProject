@@ -5,6 +5,10 @@ window.onload = function()
 	var currentDormLoc = currentFile.substring(0, 
 		currentFile.indexOf('.html')-3).toLowerCase();
 
+    var userDiv = document.getElementById('userName');
+    var priorityDiv = document.getElementById('priorityNumber');
+    userDiv.innerHTML = userName;
+    priorityDiv.innerHTML = studentPriorityLevel + ' ' + studentPriorityNumber; 
 
 	if (currentDormLoc.substring(0,5) == 'front')
 	{
