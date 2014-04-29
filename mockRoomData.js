@@ -560,7 +560,6 @@ function getAllSingles() {
     return roomsDB({'numOccupants': 1}).get();
 }
 
-
 // Returns an array of all doubles
 function getAllDoubles() {
     return roomsDB({'numOccupants': 2}).get();
@@ -586,7 +585,7 @@ function getAllUnoccupiedRooms() {
 function getRoomsInDorm(dorm) {
     var generalDormString = dorm+'*';
     var dormRegExp = new RegExp(generalDormString, 'i');
-    return roomsDB().filter({'id': {regex: dormRegExp}});
+    return roomsDB({'id': {regex: dormRegExp}}).get();
 }
 
 // Returns an array of all the empty rooms in a given location of a certain type
@@ -607,4 +606,22 @@ function getUnoccupiedRoomsByLocationAndType(location, type) {
     }
     var locRegEx = new RegExp(generalTypeString, 'i');
     return roomsDB({'id': {regex: locRegEx}, 'numOccupants': numOccupants, 'occupied': false}).get();
+}
+
+// Returns an array of all rooms of a type in a location
+function getAllRoomsByLocationAndType(location, type) {
+    if (type == 'all') {
+        type = '';
+    }
+    generalTypeString = type+'*';
+    var numOccupants = 1;
+    if (type == 'double') {
+        numOccupants = 2;
+    } else if (type == 'triple') {
+        numOccupants = 3;
+    } else if (type == 'quad') {
+        numOccupants = 4;
+    }
+    var locRegEx = new RegExp(generalTypeString, 'i');
+    return roomsDB({'id': {regex: locRegEx}, 'numOccupants': numOccupants}).get();
 }
