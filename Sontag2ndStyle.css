@@ -1,7 +1,7 @@
 #sontag203A-locked {
 	position: absolute;
-	left: 332px;
-	top: 200px;
+	left: 336px;
+	top: 270px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -9,8 +9,8 @@
 }
     #sontag203B-locked {
 	position: absolute;
-	left: 333px;
-	top: 250px;
+	left: 337px;
+	top: 320px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -18,8 +18,8 @@
 }
     #sontag203C-locked {
 	position: absolute;
-	left: 333px;
-	top: 303px;
+	left: 337px;
+	top: 373px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -27,8 +27,8 @@
 }
     #sontag203D-locked {
 	position: absolute;
-	left: 315px;
-	top: 370px;
+	left: 319px;
+	top: 440px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -36,8 +36,8 @@
 }
     #sontag206D-locked {
 	position: absolute;
-	left: 1051px;
-	top: 375px;
+	left: 1055px;
+	top: 445px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -45,8 +45,8 @@
 }
     #sontag207D-locked {
 	position: absolute;
-	left: 1054px;
-	top: 619px;
+	left: 1058px;
+	top: 689px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -54,8 +54,8 @@
 }
     #sontag208D-locked {
 	position: absolute;
-	left: 1053px;
-	top: 704px;
+	left: 1057px;
+	top: 774px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -63,8 +63,8 @@
 }
     #sontag202D-locked {
 	position: absolute;
-	left: 314px;
-	top: 617px;
+	left: 318px;
+	top: 687px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -72,8 +72,8 @@
 }
     #sontag201D-locked {
 	position: absolute;
-	left: 314px;
-	top: 708px;
+	left: 318px;
+	top: 778px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -81,8 +81,8 @@
 }
     #sontag205D-locked {
 	position: absolute;
-	left: 731px;
-	top: 219px;
+	left: 735px;
+	top: 289px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -90,8 +90,8 @@
 }
     #sontag204D-locked {
 	position: absolute;
-	left: 644px;
-	top: 215px;
+	left: 648px;
+	top: 285px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -99,26 +99,26 @@
 }
     #sontag210D-locked {
 	position: absolute;
-	left: 723px;
-	top: 547px;
+	left: 727px;
+	top: 617px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
 	cursor: pointer
 }
     #sontag209D-locked {
-  position: absolute;
-  left: 647px;
-  top: 548px;
-  width: 54px;
-  height: 41px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 651px;
+	top: 618px;
+	width: 54px;
+	height: 41px;
+	z-index: 1;
+	cursor: pointer
 }
     #sontag204A-locked {
 	position: absolute;
-	left: 527px;
-	top: 218px;
+	left: 531px;
+	top: 288px;
 	width: 47px;
 	height: 41px;
 	z-index: 1;
@@ -126,8 +126,8 @@
 }
     #sontag205A-locked {
 	position: absolute;
-	left: 848px;
-	top: 212px;
+	left: 852px;
+	top: 282px;
 	width: 44px;
 	height: 41px;
 	z-index: 1;
@@ -135,8 +135,8 @@
 }
     #sontag206A-locked {
 	position: absolute;
-	left: 1031px;
-	top: 196px;
+	left: 1035px;
+	top: 266px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -144,8 +144,8 @@
 }
     #sontag202A-locked {
 	position: absolute;
-	left: 334px;
-	top: 447px;
+	left: 338px;
+	top: 517px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -153,8 +153,8 @@
 }
     #sontag207A-locked {
 	position: absolute;
-	left: 1037px;
-	top: 446px;
+	left: 1041px;
+	top: 516px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -162,8 +162,8 @@
 }
     #sontag201A-locked {
 	position: absolute;
-	left: 330px;
-	top: 882px;
+	left: 334px;
+	top: 952px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -171,8 +171,8 @@
 }
     #sontag208A-locked {
 	position: absolute;
-	left: 1035px;
-	top: 884px;
+	left: 1039px;
+	top: 954px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -180,8 +180,8 @@
 }
     #sontag206B-locked {
 	position: absolute;
-	left: 1031px;
-	top: 251px;
+	left: 1035px;
+	top: 321px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -189,8 +189,8 @@
 }
     #sontag205B-locked {
 	position: absolute;
-	left: 801px;
-	top: 216px;
+	left: 805px;
+	top: 286px;
 	width: 47px;
 	height: 41px;
 	z-index: 1;
@@ -198,8 +198,8 @@
 }
     #sontag204B-locked {
 	position: absolute;
-	left: 577px;
-	top: 218px;
+	left: 581px;
+	top: 288px;
 	width: 45px;
 	height: 41px;
 	z-index: 1;
@@ -207,8 +207,8 @@
 }
     #sontag202B-locked {
 	position: absolute;
-	left: 328px;
-	top: 502px;
+	left: 332px;
+	top: 572px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -216,8 +216,8 @@
 }
     #sontag207B-locked {
 	position: absolute;
-	left: 1035px;
-	top: 498px;
+	left: 1039px;
+	top: 568px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -225,8 +225,8 @@
 }
     #sontag208B-locked {
 	position: absolute;
-	left: 1033px;
-	top: 829px;
+	left: 1037px;
+	top: 899px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -234,8 +234,8 @@
 }
     #sontag201B-locked {
 	position: absolute;
-	left: 334px;
-	top: 830px;
+	left: 338px;
+	top: 900px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -243,8 +243,8 @@
 }
     #sontag206C-locked {
 	position: absolute;
-	left: 1035px;
-	top: 305px;
+	left: 1039px;
+	top: 375px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -252,8 +252,8 @@
 }
     #sontag202C-locked {
 	position: absolute;
-	left: 329px;
-	top: 548px;
+	left: 333px;
+	top: 618px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -261,8 +261,8 @@
 }
     #sontag207C-locked {
 	position: absolute;
-	left: 1036px;
-	top: 551px;
+	left: 1040px;
+	top: 621px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -270,8 +270,8 @@
 }
     #sontag201C-locked {
 	position: absolute;
-	left: 334px;
-	top: 777px;
+	left: 338px;
+	top: 847px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -279,8 +279,8 @@
 }
     #sontag208C-locked {
 	position: absolute;
-	left: 1034px;
-	top: 776px;
+	left: 1038px;
+	top: 846px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -288,8 +288,8 @@
 }
 #sontag203A-occupied {
 	position: absolute;
-	left: 334px;
-	top: 200px;
+	left: 338px;
+	top: 271px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -297,8 +297,8 @@
 }
     #sontag203B-occupied {
 	position: absolute;
-	left: 335px;
-	top: 249px;
+	left: 339px;
+	top: 320px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -306,8 +306,8 @@
 }
     #sontag203C-occupied {
 	position: absolute;
-	left: 332px;
-	top: 303px;
+	left: 336px;
+	top: 374px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -315,8 +315,8 @@
 }
     #sontag203D-occupied {
 	position: absolute;
-	left: 314px;
-	top: 371px;
+	left: 318px;
+	top: 442px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -324,8 +324,8 @@
 }
     #sontag206D-occupied {
 	position: absolute;
-	left: 1051px;
-	top: 374px;
+	left: 1055px;
+	top: 445px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -333,8 +333,8 @@
 }
     #sontag207D-occupied {
 	position: absolute;
-	left: 1056px;
-	top: 619px;
+	left: 1060px;
+	top: 690px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -342,8 +342,8 @@
 }
     #sontag208D-occupied {
 	position: absolute;
-	left: 1053px;
-	top: 704px;
+	left: 1057px;
+	top: 775px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -351,8 +351,8 @@
 }
     #sontag202D-occupied {
 	position: absolute;
-	left: 313px;
-	top: 616px;
+	left: 317px;
+	top: 687px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -360,8 +360,8 @@
 }
     #sontag201D-occupied {
 	position: absolute;
-	left: 315px;
-	top: 708px;
+	left: 319px;
+	top: 779px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -369,8 +369,8 @@
 }
     #sontag205D-occupied {
 	position: absolute;
-	left: 733px;
-	top: 217px;
+	left: 737px;
+	top: 288px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -378,8 +378,8 @@
 }
     #sontag204D-occupied {
 	position: absolute;
-	left: 645px;
-	top: 213px;
+	left: 649px;
+	top: 284px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -387,26 +387,26 @@
 }
     #sontag210D-occupied {
 	position: absolute;
-	left: 721px;
-	top: 546px;
+	left: 725px;
+	top: 617px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
 	cursor: pointer
 }
     #sontag209D-occupied {
-  position: absolute;
-  left: 647px;
-  top: 548px;
-  width: 54px;
-  height: 41px;
-  z-index: 1;
-    cursor: pointer
+	position: absolute;
+	left: 651px;
+	top: 619px;
+	width: 54px;
+	height: 41px;
+	z-index: 1;
+	cursor: pointer
 }
     #sontag204A-occupied {
 	position: absolute;
-	left: 526px;
-	top: 217px;
+	left: 530px;
+	top: 288px;
 	width: 47px;
 	height: 41px;
 	z-index: 1;
@@ -414,8 +414,8 @@
 }
     #sontag205A-occupied {
 	position: absolute;
-	left: 850px;
-	top: 211px;
+	left: 854px;
+	top: 282px;
 	width: 44px;
 	height: 41px;
 	z-index: 1;
@@ -423,8 +423,8 @@
 }
     #sontag206A-occupied {
 	position: absolute;
-	left: 1032px;
-	top: 197px;
+	left: 1036px;
+	top: 268px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -432,8 +432,8 @@
 }
     #sontag202A-occupied {
 	position: absolute;
-	left: 334px;
-	top: 446px;
+	left: 338px;
+	top: 517px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -441,8 +441,8 @@
 }
     #sontag207A-occupied {
 	position: absolute;
-	left: 1038px;
-	top: 446px;
+	left: 1042px;
+	top: 517px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -450,8 +450,8 @@
 }
     #sontag201A-occupied {
 	position: absolute;
-	left: 329px;
-	top: 883px;
+	left: 333px;
+	top: 954px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -459,8 +459,8 @@
 }
     #sontag208A-occupied {
 	position: absolute;
-	left: 1035px;
-	top: 884px;
+	left: 1039px;
+	top: 955px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -468,8 +468,8 @@
 }
     #sontag206B-occupied {
 	position: absolute;
-	left: 1032px;
-	top: 251px;
+	left: 1036px;
+	top: 322px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -477,8 +477,8 @@
 }
     #sontag205B-occupied {
 	position: absolute;
-	left: 801px;
-	top: 216px;
+	left: 805px;
+	top: 287px;
 	width: 47px;
 	height: 41px;
 	z-index: 1;
@@ -486,8 +486,8 @@
 }
     #sontag204B-occupied {
 	position: absolute;
-	left: 575px;
-	top: 218px;
+	left: 579px;
+	top: 289px;
 	width: 45px;
 	height: 41px;
 	z-index: 1;
@@ -495,8 +495,8 @@
 }
     #sontag202B-occupied {
 	position: absolute;
-	left: 328px;
-	top: 501px;
+	left: 332px;
+	top: 572px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -504,8 +504,8 @@
 }
     #sontag207B-occupied {
 	position: absolute;
-	left: 1036px;
-	top: 498px;
+	left: 1040px;
+	top: 569px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -513,8 +513,8 @@
 }
     #sontag208B-occupied {
 	position: absolute;
-	left: 1034px;
-	top: 828px;
+	left: 1038px;
+	top: 899px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -522,8 +522,8 @@
 }
     #sontag201B-occupied {
 	position: absolute;
-	left: 333px;
-	top: 831px;
+	left: 337px;
+	top: 902px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -531,8 +531,8 @@
 }
     #sontag206C-occupied {
 	position: absolute;
-	left: 1036px;
-	top: 305px;
+	left: 1040px;
+	top: 376px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -540,8 +540,8 @@
 }
     #sontag202C-occupied {
 	position: absolute;
-	left: 331px;
-	top: 546px;
+	left: 335px;
+	top: 617px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -549,8 +549,8 @@
 }
     #sontag207C-occupied {
 	position: absolute;
-	left: 1037px;
-	top: 551px;
+	left: 1041px;
+	top: 622px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -558,8 +558,8 @@
 }
     #sontag201C-occupied {
 	position: absolute;
-	left: 335px;
-	top: 780px;
+	left: 339px;
+	top: 851px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
@@ -567,8 +567,8 @@
 }
     #sontag208C-occupied {
 	position: absolute;
-	left: 1033px;
-	top: 776px;
+	left: 1037px;
+	top: 847px;
 	width: 54px;
 	height: 41px;
 	z-index: 1;
