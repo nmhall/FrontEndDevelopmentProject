@@ -595,7 +595,7 @@ function getUnoccupiedRoomsByLocationAndType(location, type) {
     if (type == 'all') {
         type = '';
     }
-    generalTypeString = type+'*';
+    generalTypeString = location+'*';
     var numOccupants = 1;
     if (type == 'double') {
         numOccupants = 2;
@@ -613,7 +613,7 @@ function getAllRoomsByLocationAndType(location, type) {
     if (type == 'all') {
         type = '';
     }
-    generalTypeString = type+'*';
+    generalTypeString = location+'*';
     var numOccupants = 1;
     if (type == 'double') {
         numOccupants = 2;

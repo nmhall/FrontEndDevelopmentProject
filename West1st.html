@@ -4,6 +4,7 @@
 <head>
     <script src="taffydb-master/taffy.js"></script>
     <script src="mockRoomData.js"></script>
+    <script src="sidebarStats.js"></script>
     <link rel="stylesheet" type="text/css" href="frontPageStyle.css">
     <link rel="stylesheet" type="text/css" href="west1stStyle.css">
     <meta charset="utf-8" />
@@ -18,11 +19,11 @@
         <div class="priorityNumber">Junior 45</div>
       </div> <!-- user info section -->
       <div class="sidebarSection stats">
-        <div class="infoHeader">Campus Info</div>
-        <div class="sidebarStats">Open Singles: 15 of 40</div>
-        <div class="sidebarStats">Open Doubles: 50 of 180</div>
-        <div class="sidebarStats">Open Triples: 3 of 14</div>
-        <div class="sidebarStats">Open Quads: 1 of 4</div>
+        <div class="infoHeader">Dorm Info</div>
+      <div id="openSingles" class="sidebarStats">Singles: <span id="openSinglesNum">0</span> of <span id="singlesNum">0</span> avaliable</div>
+        <div id="openDoubles"class="sidebarStats">Doubles: <span id="openDoublesNum">0</span> of <span id="doublesNum">0</span> avaliable</div>
+        <div id="openTriples" class="sidebarStats">Triples: <span id="openTriplesNum">0</span> of <span id="triplesNum">0</span> avaliable</div>
+        <div id="openQuads" class="sidebarStats">Quads: <span id="openQuadsNum">0</span> of <span id="QuadsNum">0</span> avaliable</div>
         <div class="sidebarStats">
           <button name="FullStatsButton" type="button" id="FullStatsButton">See Full Statistics</button>
         </div>
