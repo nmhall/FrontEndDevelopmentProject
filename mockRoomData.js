@@ -587,3 +587,23 @@ function getRoomsInDorm(dorm) {
     var dormRegExp = new RegExp(generalDormString, 'i');
     return roomsDB({'id': {regex: dormRegExp}}).get();
 }
+
+// Returns an array of all the empty rooms in a given location of a certain type
+// Takes as input a location string which is either a dorm name or "all"
+// and a type string which is either "single", "double", "triple", or "quad"
+function getUnoccupiedRoomsByLocationAndType(location, type) {
+    if (type == 'all') {
+        type = '';
+    }
+    generalTypeString = type+'*';
+    var numOccupants = 1;
+    if (type == 'double') {
+        numOccupants = 2;
+    } else if (type == 'triple') {
+        numOccupants = 3;
+    } else if (type == 'quad') {
+        numOccupants = 4;
+    }
+    var locRegEx = new RegExp(generalTypeString, 'i');
+    return roomsDB({'id': {regex: locRegEx}, 'numOccupants': numOccupants, 'occupied': false}).get();
+}
